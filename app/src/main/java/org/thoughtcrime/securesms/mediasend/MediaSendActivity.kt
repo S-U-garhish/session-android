@@ -18,8 +18,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.squareup.phrase.Phrase
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
-import network.loki.messenger.databinding.MediasendActivityBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.MediasendActivityBinding
 import org.session.libsession.utilities.Address.Companion.fromSerialized
 import org.session.libsession.utilities.MediaTypes
 import org.session.libsession.utilities.StringSubstitutionConstants.APP_NAME_KEY

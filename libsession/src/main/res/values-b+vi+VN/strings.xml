@@ -158,7 +158,7 @@
     <string name="callsSettings">Cuộc gọi (Beta)</string>
     <string name="callsVoiceAndVideo">Cuộc gọi thoại và video</string>
     <string name="callsVoiceAndVideoBeta">Các cuộc gọi giọng nói và video (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Địa chỉ IP của bạn hiển thị với đối tác cuộc gọi và máy chủ Oxen Foundation trong khi sử dụng cuộc gọi beta.</string>
+    <string name="callsVoiceAndVideoModalDescription">Địa chỉ IP của bạn hiển thị với đối tác cuộc gọi và máy chủ  trong khi sử dụng cuộc gọi beta.</string>
     <string name="callsVoiceAndVideoToggleDescription">Cho phép thực hiện cuộc gọi giọng nói và video với người dùng khác.</string>
     <string name="callsYouCalled">Bạn đã gọi {name}</string>
     <string name="callsYouMissedCallPermissions">Bạn đã bỏ lỡ cuộc gọi từ <b>{name}</b> vì bạn chưa bật <b>Cuộc gọi Điện thoại và Video</b> trong Cài đặt Quyền riêng tư.</string>

@@ -551,7 +551,7 @@
     <string name="messageRequestPendingDescription">Qabul qiluvchi ushbu xabar so\'rovini ma\'qullaganidan keyin siz ovozli xabarlar va qo\'shimchalarni yuborishingiz mumkin bo\'ladi.</string>
     <string name="messageRequestYouHaveAccepted">Siz <b>{name}</b> dan xabar so\'rovini qabul qildingiz.</string>
     <string name="messageRequestsAcceptDescription">Ushbu foydalanuvchiga xabar yuborish avtomatik ravishda ularning xabar so\'rovlarini qabul qiladi va hisob ID\'ingizni ochib beradi.</string>
-    <string name="messageRequestsAccepted">Your IP Oxen Foundation server va qo\'ng\'iroq qilgan odamga ko\'rinadi, beta qo\'ng\'iroqlarni ishlatgan paytda.</string>
+    <string name="messageRequestsAccepted">Your IP  server va qo\'ng\'iroq qilgan odamga ko\'rinadi, beta qo\'ng\'iroqlarni ishlatgan paytda.</string>
     <string name="messageRequestsClearAllExplanation">Barcha xabar so\'rovlari va guruh takliflarini tozalashni xohlaysizmi?</string>
     <string name="messageRequestsCommunities">Jamiyat Xabar So\'rovlari</string>
     <string name="messageRequestsCommunitiesDescription">Hamjamiyat suhbatlaridan xabar so\'rovlariga ruxsat berish.</string>

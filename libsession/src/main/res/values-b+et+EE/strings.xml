@@ -153,7 +153,7 @@
     <string name="callsSettings">Kõned (beta)</string>
     <string name="callsVoiceAndVideo">Hääl- ja videokõned</string>
     <string name="callsVoiceAndVideoBeta">Hääl- ja videokõned (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Teie IP on nähtav teie kõnepartnerile ja Oxen Foundation serverile beetakõnede ajal.</string>
+    <string name="callsVoiceAndVideoModalDescription">Teie IP on nähtav teie kõnepartnerile ja  serverile beetakõnede ajal.</string>
     <string name="callsVoiceAndVideoToggleDescription">Võimaldab hääl- ja videokõned teistele kasutajatele ja teistelt kasutajatelt.</string>
     <string name="callsYouCalled">Häälestasite {name}le</string>
     <string name="callsYouMissedCallPermissions">Te ei vastanud kõnele <b>{name}</b>, kuna te ei ole lubanud <b>Voice and Video Calls</b> Privaatsusseadetes.</string>

@@ -44,7 +44,7 @@ import androidx.fragment.app.FragmentManager
 import com.squareup.phrase.Phrase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.StringSubstitutionConstants.APP_NAME_KEY
 import org.thoughtcrime.securesms.preferences.ClearAllDataDialog
 import org.thoughtcrime.securesms.preferences.ShareLogsDialog
@@ -122,7 +122,7 @@ private fun DatabaseMigration(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Image(
-                    painter = painterResource(R.drawable.ic_launcher_foreground),
+                    painter = painterResource(R.drawable.zillaf_icon),
                     modifier = Modifier.size(120.dp),
                     contentDescription = null
                 )

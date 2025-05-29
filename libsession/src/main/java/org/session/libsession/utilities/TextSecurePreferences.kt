@@ -15,6 +15,7 @@ import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asSharedFlow
+import org.session.libsession.BuildConfig
 import org.session.libsession.R
 import org.session.libsession.messaging.MessagingModuleConfiguration
 import org.session.libsession.utilities.TextSecurePreferences.Companion.AUTOPLAY_AUDIO_MESSAGES
@@ -118,6 +119,7 @@ interface TextSecurePreferences {
     fun removeLocalNumber()
     fun isEnterSendsEnabled(): Boolean
     fun isPasswordDisabled(): Boolean
+    fun isScreenSecurityEnabled(): Boolean
     fun setPasswordDisabled(disabled: Boolean)
     fun getLastVersionCode(): Int
     fun setLastVersionCode(versionCode: Int)
@@ -235,6 +237,7 @@ interface TextSecurePreferences {
         const val LED_BLINK_PREF_CUSTOM = "pref_led_blink_custom"
         const val PASSPHRASE_TIMEOUT_INTERVAL_PREF = "pref_timeout_interval"
         const val PASSPHRASE_TIMEOUT_PREF = "pref_timeout_passphrase"
+        const val SCREEN_SECURITY_PREF = "pref_screen_security"
         const val ENTER_SENDS_PREF = "pref_enter_sends"
         const val THREAD_TRIM_ENABLED = "pref_trim_threads"
         internal const val LOCAL_NUMBER_PREF = "pref_local_number"
@@ -676,6 +679,11 @@ interface TextSecurePreferences {
 
         fun setPasswordDisabled(context: Context, disabled: Boolean) {
             setBooleanPreference(context, DISABLE_PASSPHRASE_PREF, disabled)
+        }
+
+        @JvmStatic
+        fun isScreenSecurityEnabled(context: Context): Boolean {
+            return getBooleanPreference(context, SCREEN_SECURITY_PREF, !BuildConfig.DEBUG)
         }
 
         fun getLastVersionCode(context: Context): Int {
@@ -1316,6 +1324,10 @@ class AppTextSecurePreferences @Inject constructor(
         setBooleanPreference(TextSecurePreferences.DISABLE_PASSPHRASE_PREF, disabled)
     }
 
+    override fun isScreenSecurityEnabled(): Boolean {
+        return getBooleanPreference(TextSecurePreferences.SCREEN_SECURITY_PREF, true)
+    }
+
     override fun getLastVersionCode(): Int {
         return getIntegerPreference(TextSecurePreferences.LAST_VERSION_CODE_PREF, 0)
     }
@@ -1368,7 +1380,7 @@ class AppTextSecurePreferences @Inject constructor(
     }
 
     override fun getNotificationLedColor(): Int {
-        return getIntegerPreference(TextSecurePreferences.LED_COLOR_PREF_PRIMARY, context.getColor(R.color.accent_green))
+        return getIntegerPreference(TextSecurePreferences.LED_COLOR_PREF_PRIMARY, context.getColor(R.color.accent_orange))
     }
 
     override fun isThreadLengthTrimmingEnabled(): Boolean {

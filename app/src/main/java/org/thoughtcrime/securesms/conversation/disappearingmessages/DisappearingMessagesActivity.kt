@@ -11,8 +11,8 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ActivityDisappearingMessagesBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ActivityDisappearingMessagesBinding
 import org.thoughtcrime.securesms.ScreenLockActionBarActivity
 import org.thoughtcrime.securesms.conversation.disappearingmessages.ui.DisappearingMessages
 import org.thoughtcrime.securesms.conversation.disappearingmessages.ui.UiState

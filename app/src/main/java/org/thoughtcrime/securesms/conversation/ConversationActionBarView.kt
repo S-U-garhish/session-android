@@ -12,9 +12,9 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewConversationActionBarBinding
-import network.loki.messenger.databinding.ViewConversationSettingBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewConversationActionBarBinding
+import com.garhish.zillaf.databinding.ViewConversationSettingBinding
 import network.loki.messenger.libsession_util.util.ExpiryMode.AfterRead
 import org.session.libsession.messaging.messages.ExpirationConfiguration
 import org.session.libsession.messaging.open_groups.OpenGroup

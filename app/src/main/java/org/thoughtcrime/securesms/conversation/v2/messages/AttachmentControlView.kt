@@ -10,8 +10,8 @@ import androidx.core.graphics.ColorUtils
 import androidx.core.view.isVisible
 import com.squareup.phrase.Phrase
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewAttachmentControlBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewAttachmentControlBinding
 import org.session.libsession.database.StorageProtocol
 import org.session.libsession.messaging.sending_receiving.attachments.AttachmentState
 import org.session.libsession.messaging.sending_receiving.attachments.DatabaseAttachment

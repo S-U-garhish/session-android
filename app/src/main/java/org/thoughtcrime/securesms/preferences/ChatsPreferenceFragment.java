@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 
 import org.thoughtcrime.securesms.permissions.Permissions;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 public class ChatsPreferenceFragment extends CorrectedPreferenceFragment {
   private static final String TAG = ChatsPreferenceFragment.class.getSimpleName();

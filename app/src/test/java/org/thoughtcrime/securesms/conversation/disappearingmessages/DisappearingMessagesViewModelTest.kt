@@ -5,7 +5,7 @@ import com.google.common.truth.Truth.assertThat
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.advanceUntilIdle
 import kotlinx.coroutines.test.runTest
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import network.loki.messenger.libsession_util.util.ExpiryMode
 import org.junit.Rule
 import org.junit.Test

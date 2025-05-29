@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.preferences
 
 import android.os.Bundle
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.thoughtcrime.securesms.ScreenLockActionBarActivity
 
 class ChatSettingsActivity : ScreenLockActionBarActivity() {

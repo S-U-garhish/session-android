@@ -10,8 +10,8 @@ import androidx.loader.content.Loader
 import com.squareup.phrase.Phrase
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ActivityMessageRequestsBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ActivityMessageRequestsBinding
 import org.session.libsession.utilities.StringSubstitutionConstants.NAME_KEY
 import org.session.libsession.utilities.Address
 import org.session.libsession.utilities.recipients.Recipient

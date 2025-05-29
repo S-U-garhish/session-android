@@ -154,7 +154,7 @@
     <string name="callsSettings">Chamadas (Beta)</string>
     <string name="callsVoiceAndVideo">Chamadas de voz e vídeo</string>
     <string name="callsVoiceAndVideoBeta">Chamadas de voz e vídeo (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Seu IP estará visível para seu parceiro de chamada e para um servidor da Oxen Foundation enquanto usa chamadas beta.</string>
+    <string name="callsVoiceAndVideoModalDescription">Seu IP estará visível para seu parceiro de chamada e para um servidor da  enquanto usa chamadas beta.</string>
     <string name="callsVoiceAndVideoToggleDescription">Permite chamadas de voz e vídeo para e de outros usuários.</string>
     <string name="callsYouCalled">Você ligou para {name}</string>
     <string name="callsYouMissedCallPermissions">Você perdeu uma chamada de <b>{name}</b> porque você não ativou <b>Chamadas de Voz e Vídeo</b> nas Configurações de Privacidade.</string>

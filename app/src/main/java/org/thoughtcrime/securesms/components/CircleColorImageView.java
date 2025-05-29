@@ -8,7 +8,7 @@ import android.graphics.drawable.Drawable;
 import androidx.appcompat.widget.AppCompatImageView;
 import android.util.AttributeSet;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 public class CircleColorImageView extends AppCompatImageView {
 

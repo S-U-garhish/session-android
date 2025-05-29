@@ -32,8 +32,8 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ActivityPathBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ActivityPathBinding
 import org.session.libsession.snode.OnionRequestAPI
 import org.session.libsession.utilities.NonTranslatableStringConstants.APP_NAME
 import org.session.libsession.utilities.StringSubstitutionConstants.APP_NAME_KEY
@@ -68,7 +68,6 @@ class PathActivity : ScreenLockActionBarActivity() {
         binding.pathDescription.text = txt
 
         binding.pathRowsContainer.disableClipping()
-        binding.learnMoreButton.setOnClickListener { learnMore() }
         update(false)
         registerObservers()
 

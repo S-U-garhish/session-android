@@ -28,10 +28,10 @@ import androidx.core.view.isVisible
 import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestManager
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewEmojiReactionsBinding
-import network.loki.messenger.databinding.ViewVisibleMessageBinding
-import network.loki.messenger.databinding.ViewstubVisibleMessageMarkerContainerBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewEmojiReactionsBinding
+import com.garhish.zillaf.databinding.ViewVisibleMessageBinding
+import com.garhish.zillaf.databinding.ViewstubVisibleMessageMarkerContainerBinding
 import network.loki.messenger.libsession_util.getOrNull
 import org.session.libsession.messaging.contacts.Contact
 import org.session.libsession.messaging.contacts.Contact.ContactContext

@@ -10,7 +10,7 @@ import androidx.annotation.StyleRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.DialogFragment
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.TextSecurePreferences
 import org.session.libsession.utilities.TextSecurePreferences.Companion.CLASSIC_DARK
 import org.session.libsession.utilities.TextSecurePreferences.Companion.CLASSIC_LIGHT
@@ -97,8 +97,8 @@ fun String.getThemeStyle(): Int = when (this) {
 
 @StyleRes
 fun Int.getDefaultAccentColor(): Int = when (this) {
-    R.style.Ocean_Dark, R.style.Ocean_Light -> R.style.PrimaryBlue
-    else -> R.style.PrimaryGreen
+    R.style.Ocean_Dark, R.style.Ocean_Light -> R.style.PrimaryOrange
+    else -> R.style.PrimaryOrange
 }
 
 data class ThemeState (

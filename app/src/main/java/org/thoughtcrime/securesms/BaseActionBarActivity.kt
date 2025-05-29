@@ -12,7 +12,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.annotation.StyleRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewGroupCompat
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.TextSecurePreferences
 import org.session.libsession.utilities.ThemeUtil
 import org.thoughtcrime.securesms.util.ThemeState
@@ -132,7 +132,7 @@ abstract class BaseActionBarActivity : AppCompatActivity() {
 
         initializeScreenshotSecurity(true)
         val name = resources.getString(R.string.app_name)
-        val icon = BitmapFactory.decodeResource(resources, R.drawable.ic_launcher_foreground)
+        val icon = BitmapFactory.decodeResource(resources, R.drawable.zillaf_icon)
         val color = resources.getColor(R.color.app_icon_background)
         setTaskDescription(TaskDescription(name, icon, color))
         if (currentThemeState != preferences.themeState()) {
@@ -156,7 +156,12 @@ abstract class BaseActionBarActivity : AppCompatActivity() {
     private fun initializeScreenshotSecurity(isResume: Boolean) {
         if (!isResume) {
             window.addFlags(WindowManager.LayoutParams.FLAG_SECURE)
-        } else {
+        }
+        else if(true)
+        {
+            window.addFlags(WindowManager.LayoutParams.FLAG_SECURE);
+        }
+        else {
             window.clearFlags(WindowManager.LayoutParams.FLAG_SECURE)
         }
     }

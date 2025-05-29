@@ -13,7 +13,7 @@ import android.text.style.StyleSpan;
 import android.text.style.TypefaceSpan;
 import android.util.AttributeSet;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 import org.session.libsession.utilities.recipients.Recipient;
 import org.thoughtcrime.securesms.components.emoji.EmojiTextView;

@@ -51,7 +51,7 @@
                     android:layout_toLeftOf="@+id/searchViewContainer"
                     android:layout_toRightOf="@+id/profileButton"
                     android:scaleType="centerInside"
-                    android:src="@drawable/ic_session"
+                    android:src="@drawable/zillaf_logo"
                     app:tint="?sessionLogoTint" />
 
                 <RelativeLayout

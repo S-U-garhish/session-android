@@ -12,8 +12,8 @@ import android.text.TextUtils
 import androidx.preference.ListPreference
 import androidx.preference.Preference
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.BuildConfig
-import network.loki.messenger.R
+import com.garhish.zillaf.BuildConfig
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.TextSecurePreferences
 import org.thoughtcrime.securesms.ApplicationContext
 import org.thoughtcrime.securesms.components.SwitchPreferenceCompat

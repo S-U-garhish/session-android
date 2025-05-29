@@ -158,7 +158,7 @@
     <string name="callsSettings">Panggilan (Beta)</string>
     <string name="callsVoiceAndVideo">Panggilan Suara dan Video</string>
     <string name="callsVoiceAndVideoBeta">Panggilan Suara dan Video (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">IP Anda terlihat oleh mitra panggilan Anda dan server Oxen Foundation saat menggunakan panggilan beta.</string>
+    <string name="callsVoiceAndVideoModalDescription">IP Anda terlihat oleh mitra panggilan Anda dan server  saat menggunakan panggilan beta.</string>
     <string name="callsVoiceAndVideoToggleDescription">Aktifkan panggilan suara dan video ke atau dari pengguna lain.</string>
     <string name="callsYouCalled">Anda memanggil {name}</string>
     <string name="callsYouMissedCallPermissions">Anda melewatkan panggilan dari <b>{name}</b> karena Anda belum mengaktifkan <b>Panggilan Suara dan Video</b> di Pengaturan Privasi.</string>

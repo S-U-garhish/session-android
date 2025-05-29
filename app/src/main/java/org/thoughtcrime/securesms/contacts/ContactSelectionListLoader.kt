@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.contacts
 
 import android.content.Context
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.messaging.groups.LegacyGroupDeprecationManager
 import org.session.libsession.utilities.recipients.Recipient
 import org.thoughtcrime.securesms.util.AsyncLoader

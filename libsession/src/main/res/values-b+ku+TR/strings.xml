@@ -153,7 +153,7 @@
     <string name="callsSettings">پەیوەندیدانەکان (بهێڵه‌ی نوێ)</string>
     <string name="callsVoiceAndVideo">پەیوەندیە دەنگی و ڤیدیۆکان</string>
     <string name="callsVoiceAndVideoBeta">پەیوەندیە دەنگی و ڤیدیۆ (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">پته‌ی IP ی تۆ بۆ شەریکەکەی تیپە و سێروێری Oxen Foundation پشت بە پشت ڕەنگە بونی بوو بێت کاتێک بەکارهێنانی بەتاکوڵ بوون بوزیەکان.</string>
+    <string name="callsVoiceAndVideoModalDescription">پته‌ی IP ی تۆ بۆ شەریکەکەی تیپە و سێروێری  پشت بە پشت ڕەنگە بونی بوو بێت کاتێک بەکارهێنانی بەتاکوڵ بوون بوزیەکان.</string>
     <string name="callsVoiceAndVideoToggleDescription">کێیشە دەنگی و ڤیدیۆ ئەو کارانە وەکدی بزانی بۆ وەڵامی دیکە بەکارهێنەران.</string>
     <string name="callsYouCalled">تۆ تێڵەی تەلەفۆنی کردی بۆ {name}</string>
     <string name="callsYouMissedCallPermissions">تۆ تێڵەیەک لە <b>{name}</b>ێت هەڵوتە چونکە دەسەڵاتی <b>پەیوەندی دەنگی و ڤیدیۆ</b> لە رێکخستنی تایبەتی دان نەبەیت.</string>

@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.scan
 import kotlinx.coroutines.flow.stateIn
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.Address
 import org.session.libsession.utilities.UsernameUtils
 import org.session.libsession.utilities.recipients.Recipient

@@ -25,7 +25,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import org.thoughtcrime.securesms.conversation.v2.ViewUtil;
 import org.thoughtcrime.securesms.util.ViewUtilitiesKt;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 public abstract class CorrectedPreferenceFragment extends PreferenceFragmentCompat {
 

@@ -12,7 +12,7 @@ import androidx.compose.ui.res.stringResource
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.squareup.phrase.Phrase
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.StringSubstitutionConstants.NAME_KEY
 import org.thoughtcrime.securesms.showSessionDialog
 import org.thoughtcrime.securesms.ui.components.ActionSheetItem

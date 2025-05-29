@@ -35,7 +35,7 @@ import androidx.biometric.BiometricManager
 import androidx.core.content.ContextCompat
 import com.squareup.phrase.Phrase
 import java.lang.Exception
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.StringSubstitutionConstants.APP_NAME_KEY
 import org.session.libsession.utilities.TextSecurePreferences
 import org.session.libsession.utilities.TextSecurePreferences.Companion.isScreenLockEnabled
@@ -171,7 +171,7 @@ class ScreenLockActivity : BaseActionBarActivity() {
         })
 
         promptInfo = BiometricPrompt.PromptInfo.Builder()
-            .setTitle("Unlock Session") // TODO: Need a string for this, like `lockAppUnlock` -> "Unlock {app_name}" or similar - have informed Rebecca
+            .setTitle("Unlock ZILLAF") // TODO: Need a string for this, like `lockAppUnlock` -> "Unlock {app_name}" or similar - have informed Rebecca
             .setNegativeButtonText(this.applicationContext.getString(R.string.cancel))
             // If we needed it, we could also add things like `setAllowedAuthenticators(BIOMETRIC_STRONG or DEVICE_CREDENTIAL)` here
             .build()

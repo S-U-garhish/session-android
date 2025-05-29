@@ -159,7 +159,7 @@
     <string name="callsSettings">Gesprekken (Beta)</string>
     <string name="callsVoiceAndVideo">Spraak- en video-oproepen</string>
     <string name="callsVoiceAndVideoBeta">Spraak- en video-oproepen (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Uw IP is zichtbaar voor uw oproep partner en een Oxen Foundation server tijdens het gebruik van bètagesprekken.</string>
+    <string name="callsVoiceAndVideoModalDescription">Uw IP is zichtbaar voor uw oproep partner en een  server tijdens het gebruik van bètagesprekken.</string>
     <string name="callsVoiceAndVideoToggleDescription">Inschakelen van spraak- en video-oproepen naar en van andere gebruikers.</string>
     <string name="callsYouCalled">U belde {name}</string>
     <string name="callsYouMissedCallPermissions">U heeft een gemiste oproep van <b>{name}</b> omdat u <b>Geluid- en Video-oproepen</b> niet heeft ingeschakeld in Privacy-instellingen.</string>

@@ -13,7 +13,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.channelFlow
-import network.loki.messenger.databinding.ViewGlobalSearchInputBinding
+import com.garhish.zillaf.databinding.ViewGlobalSearchInputBinding
 import org.thoughtcrime.securesms.util.SimpleTextWatcher
 
 class GlobalSearchInputLayout @JvmOverloads constructor(

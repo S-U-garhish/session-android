@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.withTimeout
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import network.loki.messenger.libsession_util.ConfigBase.Companion.PRIORITY_VISIBLE
 import network.loki.messenger.libsession_util.Namespace
 import network.loki.messenger.libsession_util.util.Bytes.Companion.toBytes

@@ -11,8 +11,8 @@ import androidx.core.text.toSpannable
 import androidx.core.view.isVisible
 import com.bumptech.glide.RequestManager
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewQuoteBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewQuoteBinding
 import org.session.libsession.messaging.contacts.Contact
 import org.session.libsession.utilities.TextSecurePreferences
 import org.session.libsession.utilities.getColorFromAttr

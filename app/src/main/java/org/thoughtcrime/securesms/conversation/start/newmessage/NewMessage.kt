@@ -28,7 +28,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emptyFlow
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.thoughtcrime.securesms.ui.LoadingArcOr
 import org.thoughtcrime.securesms.ui.components.AppBarCloseIcon
 import org.thoughtcrime.securesms.ui.components.BackAppBar
@@ -84,6 +84,8 @@ internal fun NewMessage(
     }
 }
 
+val emptyOnClick: () -> Unit = {}
+
 @Composable
 private fun EnterAccountId(
     state: State,
@@ -123,8 +125,8 @@ private fun EnterAccountId(
                         .fillMaxWidth(),
                     style = LocalType.current.small,
                     color = LocalColors.current.textSecondary,
-                    iconRes = R.drawable.ic_circle_help,
-                    onClick = onHelp
+                    iconRes = R.drawable.empty_icon,
+                    onClick = emptyOnClick
                 )
             }
 

@@ -153,7 +153,7 @@
     <string name="callsSettings">Telefonades (Beta)</string>
     <string name="callsVoiceAndVideo">Telefonades de veu i de vídeo</string>
     <string name="callsVoiceAndVideoBeta">Telefonades de veu i de vídeo (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">La vostra IP és visible a la vostra parella de trucada i a un servidor de Oxen Foundation mentre utilitzeu trucades beta.</string>
+    <string name="callsVoiceAndVideoModalDescription">La vostra IP és visible a la vostra parella de trucada i a un servidor de  mentre utilitzeu trucades beta.</string>
     <string name="callsVoiceAndVideoToggleDescription">Permeteu telefonades de veu i de vídeo a i des d\'altres usuaris.</string>
     <string name="callsYouCalled">Heu telefonat a {name}</string>
     <string name="callsYouMissedCallPermissions">Heu rebut una trucada perduda de <b>{name}</b> perquè no heu activat <b>Trucades de veu i vídeo</b> en la Configuració de Privadesa.</string>

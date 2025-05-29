@@ -154,7 +154,7 @@
     <string name="callsSettings">Hovory (Beta)</string>
     <string name="callsVoiceAndVideo">Hlasové a video hovory</string>
     <string name="callsVoiceAndVideoBeta">Hlasové a video hovory (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Vaša IP adresa je viditeľná vášmu volajúcemu partnerovi a serveru Oxen Foundation pri používaní beta hovory.</string>
+    <string name="callsVoiceAndVideoModalDescription">Vaša IP adresa je viditeľná vášmu volajúcemu partnerovi a serveru  pri používaní beta hovory.</string>
     <string name="callsVoiceAndVideoToggleDescription">Umožňuje hlasové a video hovory s inými používateľmi a od nich.</string>
     <string name="callsYouCalled">Volali ste {name}</string>
     <string name="callsYouMissedCallPermissions">Zmeškali ste hovor od <b>{name}</b>, pretože ste nepovolili <b>Hlasové a video hovory</b> v nastaveniach súkromia.</string>

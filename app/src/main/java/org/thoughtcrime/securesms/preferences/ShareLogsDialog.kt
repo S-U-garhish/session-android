@@ -25,8 +25,8 @@ import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import network.loki.messenger.BuildConfig
-import network.loki.messenger.R
+import com.garhish.zillaf.BuildConfig
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.StringSubstitutionConstants.APP_NAME_KEY
 import org.session.libsignal.utilities.ExternalStorageUtil
 import org.session.libsignal.utilities.Log

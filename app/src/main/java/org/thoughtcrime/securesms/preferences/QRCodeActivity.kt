@@ -17,7 +17,7 @@ import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.Address
 import org.session.libsession.utilities.TextSecurePreferences
 import org.session.libsession.utilities.recipients.Recipient
@@ -107,7 +107,7 @@ fun QrPage(string: String) {
             modifier = Modifier
                 .padding(top = LocalDimensions.current.mediumSpacing, bottom = LocalDimensions.current.xsSpacing)
                 .contentDescription(R.string.AccessibilityId_qrCode),
-            icon = R.drawable.session
+            icon = R.drawable.zillaf_icon
         )
 
         Text(

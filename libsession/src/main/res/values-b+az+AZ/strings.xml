@@ -154,7 +154,7 @@
     <string name="callsSettings">Zənglər (Beta)</string>
     <string name="callsVoiceAndVideo">Səsli və görüntülü zənglər</string>
     <string name="callsVoiceAndVideoBeta">Səsli və görüntülü zənglər (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Beta zənglərini istifadə edərkən IP ünvanınız zəng tərəfdaşınıza və Oxen Foundation serverinə görünür.</string>
+    <string name="callsVoiceAndVideoModalDescription">Beta zənglərini istifadə edərkən IP ünvanınız zəng tərəfdaşınıza və  serverinə görünür.</string>
     <string name="callsVoiceAndVideoToggleDescription">Digər istifadəçilərlə səsli və görüntülü zəngləri təmin edir.</string>
     <string name="callsYouCalled">{name} istifadəçisinə zəng etdiniz</string>
     <string name="callsYouMissedCallPermissions">Gizlilik Ayarlarında <b>Səsli və görüntülü zənglər</b> seçimini fəallaşdırmadığınız üçün <b>{name}</b> etdiyi bir zəngi buraxdınız.</string>

@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.messaging.MessagingModuleConfiguration
 import org.session.libsession.messaging.groups.LegacyGroupDeprecationManager
 import org.session.libsession.messaging.utilities.SodiumUtilities
@@ -85,8 +85,8 @@ class ConversationActionModeCallback(
         // Copy message text
         menu.findItem(R.id.menu_context_copy).isVisible = !containsControlMessage && hasText
         // Copy Account ID
-        menu.findItem(R.id.menu_context_copy_public_key).isVisible =
-             (thread.isGroupOrCommunityRecipient && !thread.isCommunityRecipient && selectedItems.size == 1 && firstMessage.individualRecipient.address.toString() != userPublicKey)
+        //menu.findItem(R.id.menu_context_copy_public_key).isVisible =
+        //     (thread.isGroupOrCommunityRecipient && !thread.isCommunityRecipient && selectedItems.size == 1 && firstMessage.individualRecipient.address.toString() != userPublicKey)
         // Message detail
         menu.findItem(R.id.menu_message_details).isVisible = selectedItems.size == 1 && !isDeprecatedLegacyGroup
         // Resend
@@ -112,7 +112,7 @@ class ConversationActionModeCallback(
             R.id.menu_context_ban_user -> delegate?.banUser(selectedItems)
             R.id.menu_context_ban_and_delete_all -> delegate?.banAndDeleteAll(selectedItems)
             R.id.menu_context_copy -> delegate?.copyMessages(selectedItems)
-            R.id.menu_context_copy_public_key -> delegate?.copyAccountID(selectedItems)
+            //R.id.menu_context_copy_public_key -> delegate?.copyAccountID(selectedItems)
             R.id.menu_context_resync -> delegate?.resyncMessage(selectedItems)
             R.id.menu_context_resend -> delegate?.resendMessage(selectedItems)
             R.id.menu_message_details -> delegate?.showMessageDetail(selectedItems)

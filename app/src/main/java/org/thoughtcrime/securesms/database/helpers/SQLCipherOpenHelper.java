@@ -19,8 +19,8 @@ import net.zetetic.database.sqlcipher.SQLiteDatabase;
 import net.zetetic.database.sqlcipher.SQLiteDatabaseHook;
 import net.zetetic.database.sqlcipher.SQLiteOpenHelper;
 
-import network.loki.messenger.BuildConfig;
-import network.loki.messenger.R;
+import com.garhish.zillaf.BuildConfig;
+import com.garhish.zillaf.R;
 import org.session.libsession.utilities.TextSecurePreferences;
 import org.session.libsignal.utilities.Log;
 import org.session.libsignal.utilities.guava.Preconditions;

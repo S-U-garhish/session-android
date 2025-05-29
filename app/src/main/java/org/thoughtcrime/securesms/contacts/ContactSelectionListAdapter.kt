@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import network.loki.messenger.databinding.ContactSelectionListDividerBinding
+import com.garhish.zillaf.databinding.ContactSelectionListDividerBinding
 import org.session.libsession.utilities.recipients.Recipient
 import com.bumptech.glide.RequestManager
 

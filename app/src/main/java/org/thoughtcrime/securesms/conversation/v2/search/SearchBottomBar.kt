@@ -5,8 +5,8 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewSearchBottomBarBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewSearchBottomBarBinding
 
 class SearchBottomBar : LinearLayout {
     private lateinit var binding: ViewSearchBottomBarBinding

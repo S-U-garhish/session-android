@@ -161,7 +161,7 @@
     <string name="callsSettings">Połączenia (Beta)</string>
     <string name="callsVoiceAndVideo">Połączenia głosowe i wideo</string>
     <string name="callsVoiceAndVideoBeta">Połączenia głosowe i wideo (beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Podczas korzystania z połączeń w wersji beta Twój adres IP jest widoczny dla partnera rozmowy i serwera Oxen Foundation.</string>
+    <string name="callsVoiceAndVideoModalDescription">Podczas korzystania z połączeń w wersji beta Twój adres IP jest widoczny dla partnera rozmowy i serwera .</string>
     <string name="callsVoiceAndVideoToggleDescription">Umożliwia wykonywanie połączeń głosowych i wideo do i od innych użytkowników.</string>
     <string name="callsYouCalled">Zadzwoniono do {name}</string>
     <string name="callsYouMissedCallPermissions">Nie odebrano połączenia od użytkownika <b>{name}</b>, ponieważ nie włączono funkcji <b>„Połączenia głosowe i wideo”</b> w ustawieniach prywatności.</string>

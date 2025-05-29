@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 public class RecentEmojiPageModel implements EmojiPageModel {
   private static final String TAG                  = RecentEmojiPageModel.class.getSimpleName();

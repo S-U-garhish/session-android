@@ -6,8 +6,8 @@ import android.util.AttributeSet
 import android.widget.RelativeLayout
 import androidx.core.view.isVisible
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewVoiceMessageBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewVoiceMessageBinding
 import org.session.libsession.messaging.sending_receiving.attachments.DatabaseAttachment
 import org.session.libsignal.utilities.Log
 import org.thoughtcrime.securesms.audio.AudioSlidePlayer

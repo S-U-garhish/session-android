@@ -153,7 +153,7 @@
     <string name="callsSettings">Skambučiai (Beta)</string>
     <string name="callsVoiceAndVideo">Balso ir vaizdo skambučiai</string>
     <string name="callsVoiceAndVideoBeta">Balso ir vaizdo skambučiai (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Naudojant beta skambučius, jūsų IP adresas matomas jūsų pašnekovui ir Oxen Foundation serveriui.</string>
+    <string name="callsVoiceAndVideoModalDescription">Naudojant beta skambučius, jūsų IP adresas matomas jūsų pašnekovui ir  serveriui.</string>
     <string name="callsVoiceAndVideoToggleDescription">Įgalina balso ir vaizdo skambučius į ir iš kitų vartotojų.</string>
     <string name="callsYouCalled">Jūs skambinote {name}</string>
     <string name="callsYouMissedCallPermissions">Praleidote skambutį iš <b>{name}</b>, nes Privatumo nustatymuose neįjungėte <b>Balso ir Vaizdo Skambučių</b>.</string>

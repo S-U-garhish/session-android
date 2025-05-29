@@ -31,8 +31,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import network.loki.messenger.BuildConfig;
-import network.loki.messenger.R;
+import com.garhish.zillaf.BuildConfig;
+import com.garhish.zillaf.R;
 
 public class NotificationChannels {
 

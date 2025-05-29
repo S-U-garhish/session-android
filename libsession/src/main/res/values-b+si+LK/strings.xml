@@ -153,7 +153,7 @@
     <string name="callsSettings">ඇමතුම් (බීටා)</string>
     <string name="callsVoiceAndVideo">ශ්‍රව්‍ය හා දෘශ්‍ය ඇමතුම්</string>
     <string name="callsVoiceAndVideoBeta">ශ්‍රව්‍ය සහ වීඩියෝ ඇමතුම් (බීටා)</string>
-    <string name="callsVoiceAndVideoModalDescription">ඔබගේ IP වැටීමට වයිස් සහ Oxen Foundation සේවාදායකයකු වෙත දැක්වේදීද පරීක්ෂණ ඇමතුම් භාවිතා කිරීමේදී.</string>
+    <string name="callsVoiceAndVideoModalDescription">ඔබගේ IP වැටීමට වයිස් සහ  සේවාදායකයකු වෙත දැක්වේදීද පරීක්ෂණ ඇමතුම් භාවිතා කිරීමේදී.</string>
     <string name="callsVoiceAndVideoToggleDescription">වෙනත් පරිශීලකයින් සමඟ හඬ සහ වීඩියෝ ඇමතුම් සබලයි.</string>
     <string name="callsYouCalled">ඔබ {name} ඇමතුවා</string>
     <string name="callsYouMissedCallPermissions">ඔබට <b>පෞද්ගලික වෙතින් හඬ සහ වීඩියෝ ඇමතුම්</b> සක්‍රීය කරන විට <b>{name}</b> වෙතින් ඇමතුමක් කණගාටුයි.</string>

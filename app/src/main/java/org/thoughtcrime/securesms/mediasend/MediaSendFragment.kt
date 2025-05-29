@@ -30,8 +30,8 @@ import kotlinx.coroutines.future.await
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.supervisorScope
 import kotlinx.coroutines.withContext
-import network.loki.messenger.R
-import network.loki.messenger.databinding.MediasendFragmentBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.MediasendFragmentBinding
 import org.session.libsession.utilities.MediaTypes
 import org.session.libsession.utilities.TextSecurePreferences.Companion.isEnterSendsEnabled
 import org.session.libsession.utilities.recipients.Recipient

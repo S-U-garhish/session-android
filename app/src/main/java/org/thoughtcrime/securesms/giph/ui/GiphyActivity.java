@@ -31,8 +31,8 @@ import org.session.libsession.utilities.ViewUtil;
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 
-import network.loki.messenger.R;
-import network.loki.messenger.databinding.GiphyActivityBinding;
+import com.garhish.zillaf.R;
+import com.garhish.zillaf.databinding.GiphyActivityBinding;
 
 public class GiphyActivity extends ScreenLockActionBarActivity
     implements GiphyActivityToolbar.OnLayoutChangedListener,

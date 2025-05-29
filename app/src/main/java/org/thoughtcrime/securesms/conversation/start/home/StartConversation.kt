@@ -21,7 +21,7 @@ import androidx.compose.ui.platform.rememberNestedScrollInteropConnection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.thoughtcrime.securesms.conversation.start.NullStartConversationDelegate
 import org.thoughtcrime.securesms.conversation.start.StartConversationDelegate
 import org.thoughtcrime.securesms.ui.Divider
@@ -75,20 +75,6 @@ internal fun StartConversationScreen(
                     modifier = Modifier.contentDescription(R.string.AccessibilityId_groupCreate),
                     onClick = delegate::onCreateGroupSelected
                 )
-                Divider(startIndent = LocalDimensions.current.minItemButtonHeight)
-                ItemButton(
-                    textId = R.string.communityJoin,
-                    icon = R.drawable.ic_globe,
-                    modifier = Modifier.contentDescription(R.string.AccessibilityId_communityJoin),
-                    onClick = delegate::onJoinCommunitySelected
-                )
-                Divider(startIndent = LocalDimensions.current.minItemButtonHeight)
-                ItemButton(
-                    textId = R.string.sessionInviteAFriend,
-                    icon = R.drawable.ic_user_round_plus,
-                    Modifier.contentDescription(R.string.AccessibilityId_sessionInviteAFriendButton),
-                    onClick = delegate::onInviteFriend
-                )
                 Column(
                     modifier = Modifier
                         .padding(horizontal = LocalDimensions.current.spacing)
@@ -106,7 +92,7 @@ internal fun StartConversationScreen(
                     QrImage(
                         string = accountId,
                         Modifier.contentDescription(R.string.AccessibilityId_qrCode),
-                        icon = R.drawable.session
+                        icon = R.drawable.zillaf_icon
                     )
                 }
             }

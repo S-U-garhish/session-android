@@ -20,7 +20,7 @@ import android.content.Context
 import android.content.res.Resources
 import android.net.Uri
 import androidx.annotation.DrawableRes
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.messaging.sending_receiving.attachments.Attachment
 import org.session.libsession.messaging.sending_receiving.attachments.AttachmentState
 import org.session.libsession.messaging.sending_receiving.attachments.UriAttachment

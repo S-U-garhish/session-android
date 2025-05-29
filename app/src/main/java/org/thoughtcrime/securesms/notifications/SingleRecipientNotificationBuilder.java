@@ -45,7 +45,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 public class SingleRecipientNotificationBuilder extends AbstractNotificationBuilder {
 
@@ -64,7 +64,7 @@ public class SingleRecipientNotificationBuilder extends AbstractNotificationBuil
     super(context, privacy);
 
     setSmallIcon(R.drawable.ic_notification);
-    setColor(ContextCompat.getColor(context, R.color.accent_green));
+    setColor(ContextCompat.getColor(context, R.color.accent_orange));
     setCategory(NotificationCompat.CATEGORY_MESSAGE);
   }
 

@@ -37,7 +37,7 @@ def getGitHash = { ->
 }
 
 android {
-    namespace 'network.loki.messenger'
+    namespace 'com.garhish.zillaf'
     useLibrary 'org.apache.http.legacy'
 
     compileOptions {
@@ -103,6 +103,9 @@ android {
         testOptions {
             execution 'ANDROIDX_TEST_ORCHESTRATOR'
         }
+        def propertiesFile = project.rootProject.file("local.properties")
+        def properties = new Properties()
+        properties.load(new FileInputStream(propertiesFile))
     }
 
     sourceSets {
@@ -118,25 +121,24 @@ android {
         }
     }
 
-    buildTypes {
-        release {
-            minifyEnabled false
-        }
-        debug {
-            isDefault true
-            minifyEnabled false
-            enableUnitTestCoverage true
-            signingConfig signingConfigs.debug
-        }
-    }
-
     signingConfigs {
         play {
-            if (project.hasProperty('SESSION_STORE_FILE')) {
-                storeFile file(SESSION_STORE_FILE)
-                storePassword SESSION_STORE_PASSWORD
-                keyAlias SESSION_KEY_ALIAS
-                keyPassword SESSION_KEY_PASSWORD
+            // Load properties from local.properties
+            def localProps = new Properties()
+            def localPropsFile = project.rootProject.file("local.properties") // Access root project's local.properties
+            if (localPropsFile.exists()) {
+                localProps.load(new FileInputStream(localPropsFile))
+            }
+
+            if (localProps.getProperty('SESSION_STORE_FILE') != null) {
+                storeFile file(localProps.getProperty('SESSION_STORE_FILE'))
+                storePassword localProps.getProperty('SESSION_STORE_PASSWORD')
+                keyAlias localProps.getProperty('SESSION_KEY_ALIAS')
+                keyPassword localProps.getProperty('SESSION_KEY_PASSWORD')
+            } else {
+                // Optionally, you can log a warning or handle the case where the properties are missing
+                // For example, you might fall back to a debug signing config or fail the build if this is a release build.
+                println "Warning: SESSION_STORE_FILE not found in local.properties. 'play' signingConfig will be incomplete."
             }
         }
         huawei {
@@ -155,6 +157,21 @@ android {
             storePassword "android"
             keyAlias "androiddebugkey"
             keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            versionNameSuffix '0.1.0'
+            signingConfig signingConfigs.play
+        }
+        debug {
+            isDefault true
+            minifyEnabled false
+            enableUnitTestCoverage true
+            signingConfig signingConfigs.debug
+            versionNameSuffix '0.1.0'
         }
     }
 
@@ -256,7 +273,7 @@ android {
     }
 
 
-    testNamespace 'network.loki.messenger.test'
+    testNamespace 'com.garhish.zillaf.messenger.test'
     lint {
         abortOnError true
         baseline file('lint-baseline.xml')

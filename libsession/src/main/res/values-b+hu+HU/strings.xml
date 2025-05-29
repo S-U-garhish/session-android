@@ -154,7 +154,7 @@
     <string name="callsSettings">Hívások (béta)</string>
     <string name="callsVoiceAndVideo">Hang és videó hívások</string>
     <string name="callsVoiceAndVideoBeta">Hang és videó hívások (béta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Az IP címed látható a hívópartner és egy Oxen Foundation szerver számára a béta hívások használata közben.</string>
+    <string name="callsVoiceAndVideoModalDescription">Az IP címed látható a hívópartner és egy  szerver számára a béta hívások használata közben.</string>
     <string name="callsVoiceAndVideoToggleDescription">Lehetővé teszi a hang- és videohívásokat más felhasználókkal.</string>
     <string name="callsYouCalled">Felhívtad őt: {name}</string>
     <string name="callsYouMissedCallPermissions">Elmulasztottad <b>{name}</b> hívását, mert a <b>hang- és videó hívások</b> funkció nincs engedélyezve az adatvédelmi beállításokban.</string>

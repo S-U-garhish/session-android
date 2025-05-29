@@ -4,7 +4,7 @@ import android.content.Context
 import android.media.AudioAttributes
 import android.media.MediaPlayer
 import android.net.Uri
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsignal.utilities.Log
 import java.io.IOException
 import java.lang.IllegalArgumentException

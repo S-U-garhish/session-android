@@ -28,8 +28,8 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.google.android.material.tabs.TabLayoutMediator;
 
-import network.loki.messenger.R;
-import network.loki.messenger.databinding.ScribbleSelectStickerActivityBinding;
+import com.garhish.zillaf.R;
+import com.garhish.zillaf.databinding.ScribbleSelectStickerActivityBinding;
 
 public class StickerSelectActivity extends FragmentActivity implements StickerSelectFragment.StickerSelectionListener {
 

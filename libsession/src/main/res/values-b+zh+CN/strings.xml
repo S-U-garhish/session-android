@@ -158,7 +158,7 @@
     <string name="callsSettings">语音通话 (测试版)</string>
     <string name="callsVoiceAndVideo">语音和视频通话</string>
     <string name="callsVoiceAndVideoBeta">语音和视频通话(测试版)</string>
-    <string name="callsVoiceAndVideoModalDescription">在使用测试版通话时，您的IP会暴露给您的通话对象和Oxen Foundation服务器。</string>
+    <string name="callsVoiceAndVideoModalDescription">在使用测试版通话时，您的IP会暴露给您的通话对象和服务器。</string>
     <string name="callsVoiceAndVideoToggleDescription">允许来自其它用户的语音和视频通话。</string>
     <string name="callsYouCalled">您呼叫了{name}</string>
     <string name="callsYouMissedCallPermissions">您未在隐私设置中启用<b>语音和视频通话</b>，因此错过了来自<b>{name}</b>的通话。</string>

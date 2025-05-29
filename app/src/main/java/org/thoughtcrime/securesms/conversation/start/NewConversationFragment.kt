@@ -17,8 +17,8 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
-import network.loki.messenger.databinding.FragmentNewConversationBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.FragmentNewConversationBinding
 import org.session.libsession.messaging.groups.LegacyGroupDeprecationManager
 import org.session.libsession.utilities.Address
 import org.thoughtcrime.securesms.conversation.start.home.StartConversationHomeFragment

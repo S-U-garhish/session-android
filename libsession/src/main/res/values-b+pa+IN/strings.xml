@@ -153,7 +153,7 @@
     <string name="callsSettings">ਕਾਲਾਂ (ਬੇਟਾ)</string>
     <string name="callsVoiceAndVideo">ਆਵਾਜ਼ ਅਤੇ ਵਿਡੀਓ ਕਾਲਾਂ</string>
     <string name="callsVoiceAndVideoBeta">ਆਵਾਜ਼ ਅਤੇ ਵਿਡੀਓ ਕਾਲਾਂ (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">ਤੁਹਾਡੀ ਕਾਲ ਦੇ ਦੌਰਾਨ ਤੁਹਾਡਾ IP ਸਹਿਯੋਗੀ ਅਤੇ ਇਕ Oxen Foundation ਸਰਵਰ ਨੂੰ ਦੇਖਾਈ ਦੇਵੇਗਾ।</string>
+    <string name="callsVoiceAndVideoModalDescription">ਤੁਹਾਡੀ ਕਾਲ ਦੇ ਦੌਰਾਨ ਤੁਹਾਡਾ IP ਸਹਿਯੋਗੀ ਅਤੇ ਇਕ  ਸਰਵਰ ਨੂੰ ਦੇਖਾਈ ਦੇਵੇਗਾ।</string>
     <string name="callsVoiceAndVideoToggleDescription">ਵਾਜਬ ਧੁਨ ਅਤੇ ਵੀਡੀਓ ਕਾਲਾਂ ਨੂੰ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।</string>
     <string name="callsYouCalled">ਤੁਸੀਂ {name} ਨੂੰ ਕਾਲ ਕੀਤੀ</string>
     <string name="callsYouMissedCallPermissions">ਤੁਸੀਂ <b>{name}</b> ਤੋਂ ਇੱਕ ਕਾਲ ਮਿਸ ਕੀਤੀ ਹੈ ਕਿਉਂਕਿ ਤੁਹਾਨੂੰ <b>ਆਵਾਜ਼ ਅਤੇ ਵੀਡੀਓ ਕਾਲਾਂ</b> ਪ੍ਰਾਈਵੇਸੀ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਐਕਟੀਵੇਟ ਨਹੀਂ ਕੀਤੀਆਂ।</string>

@@ -5,7 +5,7 @@ import android.net.Uri
 import android.provider.OpenableColumns
 import java.text.SimpleDateFormat
 import java.util.Locale
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.messaging.sending_receiving.attachments.Attachment
 import org.session.libsignal.utilities.Log
 

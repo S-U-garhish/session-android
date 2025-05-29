@@ -6,7 +6,7 @@ import android.content.Context
 import android.content.Intent
 import android.widget.Toast
 import com.squareup.phrase.Phrase
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.StringSubstitutionConstants.ACCOUNT_ID_KEY
 import org.session.libsession.utilities.StringSubstitutionConstants.APP_NAME_KEY
 import org.session.libsession.utilities.StringSubstitutionConstants.DOWNLOAD_URL_KEY
@@ -14,7 +14,7 @@ import org.session.libsession.utilities.TextSecurePreferences
 
 fun Context.sendInvitationToUseSession() {
 
-    val DOWNLOAD_URL = "https://getsession.org/download"
+    val DOWNLOAD_URL = "https://apps.apple.com/us/app/zillaf/id6746320257"//TODO。Androidのものに
 
     val txt = Phrase.from(getString(R.string.accountIdShare))
         .put(APP_NAME_KEY, getString(R.string.app_name))

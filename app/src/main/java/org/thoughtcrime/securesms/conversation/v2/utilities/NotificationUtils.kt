@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.conversation.v2.utilities
 
 import android.content.Context
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.recipients.Recipient
 import org.thoughtcrime.securesms.showSessionDialog
 

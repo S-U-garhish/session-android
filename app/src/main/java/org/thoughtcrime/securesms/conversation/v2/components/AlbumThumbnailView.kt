@@ -13,8 +13,8 @@ import androidx.core.view.children
 import androidx.core.view.isVisible
 import com.bumptech.glide.RequestManager
 import com.squareup.phrase.Phrase
-import network.loki.messenger.R
-import network.loki.messenger.databinding.AlbumThumbnailViewBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.AlbumThumbnailViewBinding
 import org.session.libsession.messaging.sending_receiving.attachments.DatabaseAttachment
 import org.session.libsession.utilities.StringSubstitutionConstants.COUNT_KEY
 import org.session.libsession.utilities.recipients.Recipient

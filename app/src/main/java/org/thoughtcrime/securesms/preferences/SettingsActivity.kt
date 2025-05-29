@@ -70,9 +70,9 @@ import com.canhub.cropper.CropImageView
 import com.squareup.phrase.Phrase
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
-import network.loki.messenger.BuildConfig
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ActivitySettingsBinding
+import com.garhish.zillaf.BuildConfig
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ActivitySettingsBinding
 import org.session.libsession.snode.OnionRequestAPI
 import org.session.libsession.utilities.SSKEnvironment.ProfileManagerProtocol
 import org.session.libsession.utilities.StringSubstitutionConstants.VERSION_KEY
@@ -503,7 +503,7 @@ class SettingsActivity : ScreenLockActionBarActivity() {
             Cell {
                 Column {
                     // add the debug menu in non release builds
-                    if (BuildConfig.BUILD_TYPE != "release") {
+                    if (false /*BuildConfig.BUILD_TYPE != "release"*/) {
                         LargeItemButton(
                             "Debug Menu",
                             R.drawable.ic_settings,
@@ -537,13 +537,6 @@ class SettingsActivity : ScreenLockActionBarActivity() {
                     LargeItemButton(R.string.sessionAppearance, R.drawable.ic_paintbrush_vertical, Modifier.contentDescription(R.string.AccessibilityId_sessionAppearance)) { push<AppearanceSettingsActivity>() }
                     Divider()
 
-                    LargeItemButton(
-                        R.string.sessionInviteAFriend,
-                        R.drawable.ic_user_round_plus,
-                        Modifier.contentDescription(R.string.AccessibilityId_sessionInviteAFriend)
-                    ) { sendInvitationToUseSession() }
-                    Divider()
-
                     // Only show the recovery password option if the user has not chosen to permanently hide it
                     if (!recoveryHidden) {
                         LargeItemButton(
@@ -557,8 +550,6 @@ class SettingsActivity : ScreenLockActionBarActivity() {
                         Divider()
                     }
 
-                    LargeItemButton(R.string.sessionHelp, R.drawable.ic_question_custom, Modifier.contentDescription(R.string.AccessibilityId_help)) { push<HelpSettingsActivity>() }
-                    Divider()
 
                     LargeItemButton(R.string.sessionClearData,
                         R.drawable.ic_trash_2,

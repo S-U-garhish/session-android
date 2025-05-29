@@ -100,7 +100,7 @@ fun dangerButtonColors() = ButtonDefaults.buttonColors(
 
 
 // Our themes
-data class ClassicDark(override val primary: Color = primaryGreen) : ThemeColors {
+data class ClassicDark(override val primary: Color = primaryOrange) : ThemeColors {
     override val isLight = false
     override val danger = dangerDark
     override val warning = primaryOrange
@@ -121,7 +121,7 @@ data class ClassicDark(override val primary: Color = primaryGreen) : ThemeColors
     override val textAlert: Color = classicDark0
 }
 
-data class ClassicLight(override val primary: Color = primaryGreen) : ThemeColors {
+data class ClassicLight(override val primary: Color = primaryOrange) : ThemeColors {
     override val isLight = true
     override val danger = dangerLight
     override val warning = rust

@@ -7,8 +7,8 @@ import android.widget.LinearLayout
 import androidx.annotation.ColorInt
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewOpenGroupInvitationBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewOpenGroupInvitationBinding
 import org.session.libsession.messaging.utilities.UpdateMessageData
 import org.session.libsession.utilities.OpenGroupUrlParser
 import org.session.libsession.utilities.getColorFromAttr

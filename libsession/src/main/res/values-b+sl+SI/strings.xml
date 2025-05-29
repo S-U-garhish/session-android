@@ -153,7 +153,7 @@
     <string name="callsSettings">Klici (Beta)</string>
     <string name="callsVoiceAndVideo">Glasvni in video klici</string>
     <string name="callsVoiceAndVideoBeta">Glasvni in video klici (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Vaš IP je viden vašemu partnerskemu klicatelju in strežniku Oxen Foundation med uporabo beta klicev.</string>
+    <string name="callsVoiceAndVideoModalDescription">Vaš IP je viden vašemu partnerskemu klicatelju in strežniku  med uporabo beta klicev.</string>
     <string name="callsVoiceAndVideoToggleDescription">Omogoča glasovne in video klice od in do drugih uporabnikov.</string>
     <string name="callsYouCalled">Klicali ste osebo {name}</string>
     <string name="callsYouMissedCallPermissions">Zmanjkalo je lahko klic iz <b>{name},</b> ker niste omogočili <b>glasovnih in video klicev</b> v nastavitvah zasebnosti.</string>

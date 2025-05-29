@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
-import network.loki.messenger.databinding.ViewConversationTypingContainerBinding
+import com.garhish.zillaf.databinding.ViewConversationTypingContainerBinding
 import org.session.libsession.utilities.recipients.Recipient
 
 class TypingIndicatorViewContainer : LinearLayout {

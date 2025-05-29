@@ -35,8 +35,8 @@ import com.squareup.phrase.Phrase
 import dagger.Lazy
 import dagger.hilt.EntryPoints
 import dagger.hilt.android.HiltAndroidApp
-import network.loki.messenger.BuildConfig
-import network.loki.messenger.R
+import com.garhish.zillaf.BuildConfig
+import com.garhish.zillaf.R
 import network.loki.messenger.libsession_util.util.Logger.initLogger
 import nl.komponents.kovenant.android.startKovenant
 import nl.komponents.kovenant.android.stopKovenant

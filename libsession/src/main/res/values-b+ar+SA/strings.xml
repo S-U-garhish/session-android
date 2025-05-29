@@ -162,7 +162,7 @@
     <string name="callsSettings">المكالمات (نسخة تجريبية)</string>
     <string name="callsVoiceAndVideo">المكالمات الصوتية و المرئية</string>
     <string name="callsVoiceAndVideoBeta">المكالمات الصوتية والمرئية (تجريبي)</string>
-    <string name="callsVoiceAndVideoModalDescription">عنوان IP الخاص بك مرئي لشريك الاتصال وخادم Oxen Foundation أثناء استخدام المكالمات التجريبية.</string>
+    <string name="callsVoiceAndVideoModalDescription">عنوان IP الخاص بك مرئي لشريك الاتصال وخادم  أثناء استخدام المكالمات التجريبية.</string>
     <string name="callsVoiceAndVideoToggleDescription">تفعيل المكالمات الصوتية والمرئية من وإلى المستخدمين الآخرين.</string>
     <string name="callsYouCalled">لقد اتصلت بـ {name}</string>
     <string name="callsYouMissedCallPermissions">لقد فاتتك مكالمة من <b>{name}</b> لأنك لم تقم بتمكين <b>المكالمات الصوتية والمرئية</b> في إعدادات الخصوصية.</string>

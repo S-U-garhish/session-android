@@ -151,7 +151,7 @@
     <string name="callsSettings">تماس‌ها (بتا)</string>
     <string name="callsVoiceAndVideo">تماس‌های صوتی و تصویری</string>
     <string name="callsVoiceAndVideoBeta">تماس‌های صوتی و تصویری (بتا)</string>
-    <string name="callsVoiceAndVideoModalDescription">آدرس IP شما برای مخاطب تماس شما و همچنین سرور Oxen Foundation در هنگام استفاده از تماس آزمایشی مشخص خواهد بود.</string>
+    <string name="callsVoiceAndVideoModalDescription">آدرس IP شما برای مخاطب تماس شما و همچنین سرور  در هنگام استفاده از تماس آزمایشی مشخص خواهد بود.</string>
     <string name="callsVoiceAndVideoToggleDescription">دریافت و ارسال تماس های صوتی و تصویری به سایر کاربران را فعال کنید.</string>
     <string name="callsYouCalled">تماس شما با {name}</string>
     <string name="callsYouMissedCallPermissions">شما تماسی را از <b>{name}</b> از دست دادید زیرا <b>تماس‌های صوتی و تصویری</b> را در تنظیمات حریم خصوصی فعال نکرده‌اید.</string>

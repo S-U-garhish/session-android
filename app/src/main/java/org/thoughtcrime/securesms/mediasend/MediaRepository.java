@@ -23,7 +23,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 /**
  * Handles the retrieval of media present on the user's device.

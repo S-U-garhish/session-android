@@ -154,7 +154,7 @@
     <string name="callsSettings">通話 (Beta)</string>
     <string name="callsVoiceAndVideo">語音和視訊通話</string>
     <string name="callsVoiceAndVideoBeta">語音和視訊通話 (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">您在使用測試版通話時，您的 IP 將會被通話夥伴和 Oxen Foundation 伺服器看到。</string>
+    <string name="callsVoiceAndVideoModalDescription">您在使用測試版通話時，您的 IP 將會被通話夥伴和  伺服器看到。</string>
     <string name="callsVoiceAndVideoToggleDescription">啟用語音通話和視像通話功能。</string>
     <string name="callsYouCalled">您撥打給 {name}</string>
     <string name="callsYouMissedCallPermissions">您錯過了<b>{name} </b>的一個通話，因為您沒有在隱私設定中啟用<b>語音和視頻通話</b>。</string>
@@ -519,7 +519,7 @@
     <string name="messageEmpty">訊息內容是空的。</string>
     <string name="messageErrorDelivery">訊息傳送失敗</string>
     <string name="messageErrorLimit">訊息長度已達限制</string>
-    <string name="messageErrorOld">收到一則來自舊版本 {app_name} 的加密訊息，其版本已不再支援。請讓傳送者升級到 Session 的最新版本再傳送訊息。</string>
+    <string name="messageErrorOld">收到一則來自舊版本 {app_name} 的加密訊息，其版本已不再支援。請讓傳送者升級到 ZILLAF 的最新版本再傳送訊息。</string>
     <string name="messageErrorOriginal">找不到原始訊息</string>
     <string name="messageInfo">訊息資訊</string>
     <string name="messageMarkRead">標示已讀</string>

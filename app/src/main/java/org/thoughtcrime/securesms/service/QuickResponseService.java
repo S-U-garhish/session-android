@@ -11,7 +11,7 @@ import android.widget.Toast;
 import com.squareup.phrase.Phrase;
 import java.net.URISyntaxException;
 import java.net.URLDecoder;
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 import org.session.libsession.messaging.messages.visible.VisibleMessage;
 import org.session.libsession.messaging.sending_receiving.MessageSender;
 import org.session.libsession.snode.SnodeAPI;

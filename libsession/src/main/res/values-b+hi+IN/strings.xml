@@ -154,7 +154,7 @@
     <string name="callsSettings">कॉल्स (बेटा)</string>
     <string name="callsVoiceAndVideo">वॉइस और वीडियो कॉल</string>
     <string name="callsVoiceAndVideoBeta">वॉइस और वीडियो कॉल (बीटा)</string>
-    <string name="callsVoiceAndVideoModalDescription">अपने खाते में एन्क्रिप्टेड संदेश भेजते समय आपका IP आपके कॉल पार्टनर और Oxen Foundation सर्वर को दिखाई देगा।</string>
+    <string name="callsVoiceAndVideoModalDescription">अपने खाते में एन्क्रिप्टेड संदेश भेजते समय आपका IP आपके कॉल पार्टनर और  सर्वर को दिखाई देगा।</string>
     <string name="callsVoiceAndVideoToggleDescription">अन्य उपयोगकर्ताओं से वॉयस और वीडियो कॉल सक्षम करता है।</string>
     <string name="callsYouCalled">आपने {name} को कॉल किया</string>
     <string name="callsYouMissedCallPermissions">आपको <b>प्राइवेसी सेटिंग्स</b> में <b>वॉइस और वीडियो कॉल्स</b> सक्षम नहीं करने के कारण <b>{name}</b> से कॉल छूट गया।</string>

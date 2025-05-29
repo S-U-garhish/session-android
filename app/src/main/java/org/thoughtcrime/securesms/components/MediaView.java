@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import com.bumptech.glide.RequestManager;
 import java.io.IOException;
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 import org.session.libsession.utilities.Stub;
 import org.thoughtcrime.securesms.mms.VideoSlide;
 import org.thoughtcrime.securesms.util.FilenameUtils;

@@ -7,7 +7,7 @@ import androidx.compose.ui.platform.ComposeView
 import androidx.preference.PreferenceViewHolder
 import androidx.preference.TwoStatePreference
 import kotlinx.coroutines.flow.MutableStateFlow
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.StringSubstitutionConstants.APP_NAME_KEY
 import org.thoughtcrime.securesms.ui.components.SessionSwitch
 import org.thoughtcrime.securesms.ui.getSubbedCharSequence

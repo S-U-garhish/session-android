@@ -153,7 +153,7 @@
     <string name="callsSettings">Позиви (бета)</string>
     <string name="callsVoiceAndVideo">Гласовни и видео позиви</string>
     <string name="callsVoiceAndVideoBeta">Гласовни и видео позиви (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Ваша IP адреса је видљива вашем сајговорнику и серверу Oxen Foundation док користите бета позиве.</string>
+    <string name="callsVoiceAndVideoModalDescription">Ваша IP адреса је видљива вашем сајговорнику и серверу  док користите бета позиве.</string>
     <string name="callsVoiceAndVideoToggleDescription">Омогућава гласовна и видео ћаскања између других корисника.</string>
     <string name="callsYouCalled">Позвали сте {name}</string>
     <string name="callsYouMissedCallPermissions">Пропустили сте позив од <b>{name}</b> јер нисте омогућили <b>Гласовне и Видео Позиве</b> у Подешавањима Приватности.</string>

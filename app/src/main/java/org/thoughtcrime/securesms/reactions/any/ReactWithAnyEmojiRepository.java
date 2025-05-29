@@ -15,7 +15,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 final class ReactWithAnyEmojiRepository {
 

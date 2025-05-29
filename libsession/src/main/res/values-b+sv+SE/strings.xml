@@ -154,7 +154,7 @@
     <string name="callsSettings">Samtal (Beta)</string>
     <string name="callsVoiceAndVideo">Röst- och videosamtal</string>
     <string name="callsVoiceAndVideoBeta">Röst- och videosamtal (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Din IP är synlig för din samtalspartner och en Oxen Foundation server när du använder beta-samtal.</string>
+    <string name="callsVoiceAndVideoModalDescription">Din IP är synlig för din samtalspartner och en  server när du använder beta-samtal.</string>
     <string name="callsVoiceAndVideoToggleDescription">Möjliggör röst- och videosamtal till och från andra användare.</string>
     <string name="callsYouCalled">Du ringde {name}</string>
     <string name="callsYouMissedCallPermissions">Du missade ett samtal från <b>{name}</b> eftersom du inte har aktiverat <b>Röst- och videosamtal</b> i Sekretessinställningar.</string>

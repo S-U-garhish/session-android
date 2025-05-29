@@ -13,8 +13,8 @@ import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.google.android.material.chip.Chip
-import network.loki.messenger.R
-import network.loki.messenger.databinding.FragmentEnterCommunityUrlBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.FragmentEnterCommunityUrlBinding
 import org.session.libsession.messaging.open_groups.OpenGroupApi
 import org.thoughtcrime.securesms.BaseActionBarActivity
 import org.thoughtcrime.securesms.util.State

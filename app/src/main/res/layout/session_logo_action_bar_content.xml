@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:src="@drawable/session_logo" />
+        android:src="@drawable/zillaf_logo" />
 
     <FrameLayout
         android:id="@+id/back_button"

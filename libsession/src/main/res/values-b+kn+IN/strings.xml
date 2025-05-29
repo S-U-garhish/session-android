@@ -153,7 +153,7 @@
     <string name="callsSettings">ಕಾಲುಗಳು (ಬೀಟಾ)</string>
     <string name="callsVoiceAndVideo">ವಾಯ್ಸ್ ಮತ್ತು ವೀಡಿಯೋ ಕರೆಗಳು</string>
     <string name="callsVoiceAndVideoBeta">ವಾಯ್ಸ್ ಮತ್ತು ವೀಡಿಯೋ ಕರೆಗಳು (ಬೀಟಾ)</string>
-    <string name="callsVoiceAndVideoModalDescription">ಬೇಟ ಕಾಲ್ಲನ್ನು ಬಳಸಿದಾಗ ನಿಮ್ಮ IP ಕರೆ ಸಹವಾಸಿಗೂ ಮತ್ತು Oxen Foundation ಸರ್ವರ್‌ಗೆ ಗೋಚರುತ್ತದೆ.</string>
+    <string name="callsVoiceAndVideoModalDescription">ಬೇಟ ಕಾಲ್ಲನ್ನು ಬಳಸಿದಾಗ ನಿಮ್ಮ IP ಕರೆ ಸಹವಾಸಿಗೂ ಮತ್ತು  ಸರ್ವರ್‌ಗೆ ಗೋಚರುತ್ತದೆ.</string>
     <string name="callsVoiceAndVideoToggleDescription">ಇತರ ಬಳಕೆದಾರರಿಂದ ಮತ್ತು ಇತರ ಬಳಕೆದಾರರಿಗೆ ಧ್ವನಿ ಮತ್ತು ವೀಡಿಯೊ ಕರೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ.</string>
     <string name="callsYouCalled">ನೀವು {name} ಗೆ ಕರೆ ಮಾಡಿದ್ದೀರಿ</string>
     <string name="callsYouMissedCallPermissions">ನೀವು <b>{name}</b> ನಿಂದ ಕರೆ ಕಳೆದುಕೊಂಡಿದ್ದೀರಿ ಏಕೆಂದರೆ ನೀವು ಪ್ರೈವೆಸಿ ಸೆಟ್ಟಿಂಗ್ಗಳಲ್ಲಿ <b>ವಾಯ್ಸ್ ಮತ್ತು ವಿಡಿಯೋ ಕಾಲ್‌ಗಳು</b> ನ್ನು ಅನುಮತಿಸಿದಿಲ್ಲ.</string>

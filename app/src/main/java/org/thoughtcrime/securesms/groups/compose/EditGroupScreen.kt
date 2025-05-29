@@ -50,8 +50,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.squareup.phrase.Phrase
 import kotlinx.serialization.Serializable
-import network.loki.messenger.BuildConfig
-import network.loki.messenger.R
+import com.garhish.zillaf.BuildConfig
+import com.garhish.zillaf.R
 import network.loki.messenger.libsession_util.util.GroupMember
 import org.session.libsession.utilities.StringSubstitutionConstants.GROUP_NAME_KEY
 import org.session.libsession.utilities.StringSubstitutionConstants.NAME_KEY

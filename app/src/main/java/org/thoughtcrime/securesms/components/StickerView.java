@@ -14,7 +14,7 @@ import org.thoughtcrime.securesms.mms.Slide;
 import org.thoughtcrime.securesms.mms.SlideClickListener;
 import org.thoughtcrime.securesms.mms.SlidesClickedListener;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 public class StickerView extends FrameLayout {
 

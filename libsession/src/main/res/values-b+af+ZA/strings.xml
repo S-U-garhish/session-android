@@ -153,7 +153,7 @@
     <string name="callsSettings">Oproepe (Beta)</string>
     <string name="callsVoiceAndVideo">Stem- en video-oproepe</string>
     <string name="callsVoiceAndVideoBeta">Stem- en video-oproepe (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Jou IP is sigbaar vir jou oproepmaat en \'n Oxen Foundation-bediener terwyl beta-oproepe gebruik word.</string>
+    <string name="callsVoiceAndVideoModalDescription">Jou IP is sigbaar vir jou oproepmaat en \'n -bediener terwyl beta-oproepe gebruik word.</string>
     <string name="callsVoiceAndVideoToggleDescription">Aktiveer stem- en videoklank aanroep na en van ander gebruikers.</string>
     <string name="callsYouCalled">Jy het {name} gebel</string>
     <string name="callsYouMissedCallPermissions">Jy het \'n oproep gemis van <b>{name}</b> omdat jy nie <b>Stem- en Video-oproepe</b> in Privaatheid-instellings aangeskakel het nie.</string>

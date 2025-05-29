@@ -25,8 +25,8 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ActivityWebrtcBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ActivityWebrtcBinding
 import org.apache.commons.lang3.time.DurationFormatUtils
 import org.session.libsession.utilities.Address
 import org.session.libsession.utilities.TextSecurePreferences

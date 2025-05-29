@@ -13,7 +13,7 @@ import androidx.appcompat.widget.AppCompatEditText;
 import org.session.libsignal.utilities.Log;
 import org.thoughtcrime.securesms.components.emoji.EmojiProvider.EmojiDrawable;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 
 public class EmojiEditText extends AppCompatEditText {

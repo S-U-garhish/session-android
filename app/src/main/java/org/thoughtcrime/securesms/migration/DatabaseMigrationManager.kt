@@ -14,7 +14,7 @@ import kotlinx.coroutines.runBlocking
 import net.zetetic.database.sqlcipher.SQLiteConnection
 import net.zetetic.database.sqlcipher.SQLiteDatabase
 import net.zetetic.database.sqlcipher.SQLiteDatabaseHook
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.TextSecurePreferences
 import org.session.libsignal.utilities.Log
 import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider

@@ -154,7 +154,7 @@
     <string name="callsSettings">அழைப்புகள் (பீட்டா)</string>
     <string name="callsVoiceAndVideo">குரல் மற்றும் காணொளி அழைப்புகள்</string>
     <string name="callsVoiceAndVideoBeta">குரல் மற்றும் காணொளி அழைப்புகள் (பீட்டா)</string>
-    <string name="callsVoiceAndVideoModalDescription">அழைப்பு பிறையாளர் மற்றும் Oxen Foundation சர்வரில் உங்கள் ஐபி காட்டப்படவும் செய்தி சேவையின்போது.</string>
+    <string name="callsVoiceAndVideoModalDescription">அழைப்பு பிறையாளர் மற்றும்  சர்வரில் உங்கள் ஐபி காட்டப்படவும் செய்தி சேவையின்போது.</string>
     <string name="callsVoiceAndVideoToggleDescription">பயனீர்களுக்கிடையே குரல் மற்றும் காணொளி அழைப்புகளை செயல்படுத்துகிறது.</string>
     <string name="callsYouCalled">நீங்கள் {name} ஐ அழைத்துள்ளீர்கள்</string>
     <string name="callsYouMissedCallPermissions">நீங்கள் <b>{name}</b> -ன் அழைப்பை (call) நீங்கள் <b>குரல் மற்றும் வீடியோ அழைப்புகளை</b> பொறிமுறையில் இயல்த்தவில்லை என்பதனால் தவற விட்டீர்கள்.</string>

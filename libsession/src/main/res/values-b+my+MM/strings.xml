@@ -153,7 +153,7 @@
     <string name="callsSettings">ခေါ်ဆိုမှု(Beta)</string>
     <string name="callsVoiceAndVideo">အသံနှင့်ဗီဒီယိုကော</string>
     <string name="callsVoiceAndVideoBeta">အသံနှင့်ဗီဒီယိုကော (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">သင့် IP ကို ဖုန်းခေါ်စဉ်တွင် သင်၏ ချိန်းညွှန်းပါတနာများနှင့် Oxen Foundation ဆာဗာကို မြင်ရပါသည်။</string>
+    <string name="callsVoiceAndVideoModalDescription">သင့် IP ကို ဖုန်းခေါ်စဉ်တွင် သင်၏ ချိန်းညွှန်းပါတနာများနှင့်  ဆာဗာကို မြင်ရပါသည်။</string>
     <string name="callsVoiceAndVideoToggleDescription">အသုံးပြုသူများနှင့် အလွယ်တကူ အသံ ဖွင့်ခြင်းနှင့် ဗီဒီယိုခေါ်သည်</string>
     <string name="callsYouCalled">You called {name}</string>
     <string name="callsYouMissedCallPermissions">သင်သည် <b>{name}</b> ၏ ဖုန်းခေါ်ဆိုမှုကို လက်မခံနိုင်ပါနှင့်၊ သို့သော် သင် နှင့် ဖုန်းခေါ်မှု ဖွင့်ထားသော <b>Voice and Video Calls</b> ကို စနစ်ပြင်ဆင်မှုများတွင် ဖွင့်ထားလိုက်ပါ။</string>

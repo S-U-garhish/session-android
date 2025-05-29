@@ -154,7 +154,7 @@
     <string name="callsSettings">Apeluri (Beta)</string>
     <string name="callsVoiceAndVideo">Apeluri vocale și video</string>
     <string name="callsVoiceAndVideoBeta">Apeluri vocale și video (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">IP-ul dumneavoastră este vizibil către partenerul de apel și către un server al Oxen Foundation atunci când utilizați apeluri beta.</string>
+    <string name="callsVoiceAndVideoModalDescription">IP-ul dumneavoastră este vizibil către partenerul de apel și către un server al  atunci când utilizați apeluri beta.</string>
     <string name="callsVoiceAndVideoToggleDescription">Activează apelurile vocale și video către și de la alți utilizatori.</string>
     <string name="callsYouCalled">Ai apelat pe {name}</string>
     <string name="callsYouMissedCallPermissions">Ai ratat un apel de la <b>{name}</b> pentru că nu ai activat <b>Apeluri vocale și video</b> în setările de confidențialitate.</string>

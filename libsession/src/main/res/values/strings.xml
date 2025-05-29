@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Session</string>
+    <string name="app_name" translatable="false">ZILLAF</string>
     <string name="about">About</string>
     <string name="accept">Accept</string>
     <string name="accountIDCopy">Copy Account ID</string>
@@ -185,7 +185,7 @@
     <string name="callsSettings">Calls (Beta)</string>
     <string name="callsVoiceAndVideo">Voice and Video Calls</string>
     <string name="callsVoiceAndVideoBeta">Voice and Video Calls (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Your IP is visible to your call partner and a Session Technology Foundation server while using beta calls.</string>
+    <string name="callsVoiceAndVideoModalDescription">Your IP is visible to your call partner and a ZILLAF server while using beta calls.</string>
     <string name="callsVoiceAndVideoToggleDescription">Enables voice and video calls to and from other users.</string>
     <string name="callsYouCalled">You called {name}</string>
     <string name="callsYouMissedCallPermissions">You missed a call from <b>{name}</b> because you haven\'t enabled <b>Voice and Video Calls</b> in Privacy Settings.</string>

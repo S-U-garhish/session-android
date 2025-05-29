@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="PrimaryOrange">
+        <item name="colorAccent">@color/accent_orange</item>
+    </style>
     <style name="PrimaryGreen">
         <item name="colorAccent">@color/accent_green</item>
     </style>
@@ -14,9 +17,6 @@
     </style>
     <style name="PrimaryRed">
         <item name="colorAccent">@color/accent_red</item>
-    </style>
-    <style name="PrimaryOrange">
-        <item name="colorAccent">@color/accent_orange</item>
     </style>
     <style name="PrimaryYellow">
         <item name="colorAccent">@color/accent_yellow</item>

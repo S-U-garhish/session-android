@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.NO_ID
 import com.bumptech.glide.RequestManager
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewMessageRequestBannerBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewMessageRequestBannerBinding
 import org.thoughtcrime.securesms.dependencies.ConfigFactory
 
 class HomeAdapter(

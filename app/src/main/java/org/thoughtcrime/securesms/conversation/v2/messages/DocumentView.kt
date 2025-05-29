@@ -7,7 +7,7 @@ import android.util.AttributeSet
 import android.widget.LinearLayout
 import androidx.annotation.ColorInt
 import androidx.core.view.isVisible
-import network.loki.messenger.databinding.ViewDocumentBinding
+import com.garhish.zillaf.databinding.ViewDocumentBinding
 import org.session.libsession.utilities.Util
 import org.thoughtcrime.securesms.database.model.MmsMessageRecord
 

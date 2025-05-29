@@ -11,8 +11,8 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestManager
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewProfilePictureBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewProfilePictureBinding
 import org.session.libsession.avatars.ContactColors
 import org.session.libsession.avatars.PlaceholderAvatarPhoto
 import org.session.libsession.avatars.ProfileContactPhoto

@@ -39,7 +39,7 @@ import org.session.libsession.utilities.recipients.Recipient;
 import org.session.libsignal.utilities.AccountId;
 import org.thoughtcrime.securesms.dependencies.DatabaseComponent;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 /**
  * The base class for message record models that are displayed in

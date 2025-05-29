@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.annotation.StringRes
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewGlobalSearchHeaderBinding
-import network.loki.messenger.databinding.ViewGlobalSearchResultBinding
-import network.loki.messenger.databinding.ViewGlobalSearchSubheaderBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewGlobalSearchHeaderBinding
+import com.garhish.zillaf.databinding.ViewGlobalSearchResultBinding
+import com.garhish.zillaf.databinding.ViewGlobalSearchSubheaderBinding
 import org.session.libsession.utilities.GroupRecord
 import org.session.libsession.utilities.recipients.Recipient
 import org.session.libsignal.utilities.AccountId

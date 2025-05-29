@@ -2,9 +2,9 @@
 <menu
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-        <item
+        <!--<item
             android:title="@string/accountIDCopy"
             android:id="@+id/menu_copy_account_id"
             android:icon="@drawable/ic_copy"
-            android:contentDescription="@string/AccessibilityId_accountIdCopy" />
+            android:contentDescription="@string/AccessibilityId_accountIdCopy" />-->
 </menu>

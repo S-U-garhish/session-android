@@ -27,7 +27,7 @@ import org.thoughtcrime.securesms.util.NumberUtil;
 
 import java.util.Objects;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 public final class ReactionsDialogFragment extends BottomSheetDialogFragment implements ReactionViewPagerAdapter.Listener {
 

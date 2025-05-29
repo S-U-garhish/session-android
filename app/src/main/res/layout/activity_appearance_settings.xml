@@ -110,77 +110,6 @@
                     android:layout_height="1dp"
                     android:background="?android:textColorPrimary"/>
 
-                <LinearLayout
-                    android:id="@+id/theme_option_ocean_dark"
-                    android:addStatesFromChildren="true"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="?selectableItemBackground"
-                    android:paddingHorizontal="@dimen/small_spacing"
-                    android:paddingVertical="@dimen/small_spacing"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:theme="@style/Ocean.Dark"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_themepreview"/>
-                    <TextView
-                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
-                        android:textSize="16sp"
-                        android:lines="1"
-                        android:text="@string/appearanceThemesOceanDark"
-                        android:padding="@dimen/medium_spacing"
-                        android:layout_gravity="center"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="wrap_content"/>
-                    <RadioButton
-                        android:id="@+id/theme_radio_ocean_dark"
-                        android:layout_gravity="center"
-                        android:layout_margin="@dimen/small_spacing"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-                </LinearLayout>
-
-                <View
-                    android:alpha="0.15"
-                    android:layout_marginHorizontal="@dimen/medium_spacing"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="?android:textColorPrimary"/>
-
-                <LinearLayout
-                    android:id="@+id/theme_option_ocean_light"
-                    android:addStatesFromChildren="true"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="?selectableItemBackground"
-                    android:paddingHorizontal="@dimen/small_spacing"
-                    android:paddingVertical="@dimen/small_spacing"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:theme="@style/Ocean.Light"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_themepreview"/>
-                    <TextView
-                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
-                        android:textSize="16sp"
-                        android:lines="1"
-                        android:text="@string/appearanceThemesOceanLight"
-                        android:padding="@dimen/medium_spacing"
-                        android:layout_gravity="center"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="wrap_content"/>
-                    <RadioButton
-                        android:id="@+id/theme_radio_ocean_light"
-                        android:layout_gravity="center"
-                        android:layout_margin="@dimen/small_spacing"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-                </LinearLayout>
-
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -282,6 +211,13 @@
             android:layout_marginVertical="@dimen/small_spacing"
             android:layout_marginHorizontal="@dimen/small_spacing">
             <View
+                android:id="@+id/accent_orange"
+                android:background="@drawable/padded_circle_tintable"
+                android:backgroundTint="@color/accent_orange"
+                android:foreground="@drawable/radial_select"
+                android:layout_width="@dimen/radial_size"
+                android:layout_height="@dimen/radial_size"/>
+            <View
                 android:id="@+id/accent_green"
                 android:background="@drawable/padded_circle_tintable"
                 android:backgroundTint="@color/accent_green"
@@ -313,13 +249,6 @@
                 android:id="@+id/accent_purple"
                 android:background="@drawable/padded_circle_tintable"
                 android:backgroundTint="@color/accent_purple"
-                android:foreground="@drawable/radial_select"
-                android:layout_width="@dimen/radial_size"
-                android:layout_height="@dimen/radial_size"/>
-            <View
-                android:id="@+id/accent_orange"
-                android:background="@drawable/padded_circle_tintable"
-                android:backgroundTint="@color/accent_orange"
                 android:foreground="@drawable/radial_select"
                 android:layout_width="@dimen/radial_size"
                 android:layout_height="@dimen/radial_size"/>

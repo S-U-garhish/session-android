@@ -30,7 +30,7 @@ import org.session.libsignal.utilities.guava.Optional;
 import org.thoughtcrime.securesms.util.ViewUtilitiesKt;
 
 import dagger.hilt.android.AndroidEntryPoint;
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 /**
  * Allows the user to select a media folder to explore.

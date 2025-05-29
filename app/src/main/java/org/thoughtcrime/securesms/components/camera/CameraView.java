@@ -45,7 +45,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 @SuppressWarnings("deprecation")
 public class CameraView extends ViewGroup {

@@ -21,11 +21,11 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
+    <!--<PreferenceCategory
         android:title="@string/sessionMessageRequests"
         android:key="@string/sessionMessageRequests"
         android:persistent="false">
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 
     <PreferenceCategory android:title="@string/readReceipts">
         <org.thoughtcrime.securesms.components.SwitchPreferenceCompat

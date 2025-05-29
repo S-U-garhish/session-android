@@ -154,7 +154,7 @@
     <string name="callsSettings">కాల్స్ (బీటా)</string>
     <string name="callsVoiceAndVideo">వాయిస్ మరియు వీడియో కాల్స్</string>
     <string name="callsVoiceAndVideoBeta">వాయిస్ మరియు వీడియో కాల్స్ (బీటా)</string>
-    <string name="callsVoiceAndVideoModalDescription">బీటా కాల్‌లను ఉపయోగిస్తున్నప్పుడు మీ ఐపి మీ కాల్ భాగస్వామికి మరియు ఒక Oxen Foundation సర్వర్‌కు కనిపిస్తుంది.</string>
+    <string name="callsVoiceAndVideoModalDescription">బీటా కాల్‌లను ఉపయోగిస్తున్నప్పుడు మీ ఐపి మీ కాల్ భాగస్వామికి మరియు ఒక  సర్వర్‌కు కనిపిస్తుంది.</string>
     <string name="callsVoiceAndVideoToggleDescription">ఇతర వినియోగదారులకు మరియు వినియోగదారుల నుండి వాయిస్ మరియు వీడియో కాల్స్.</string>
     <string name="callsYouCalled">మీరు {name} కాల్ చేశారు</string>
     <string name="callsYouMissedCallPermissions">మీరు <b>వాయిస్ మరియు వీడియో కాల్స్</b>ను ప్రైవసీ సెట్టింగ్స్‌లో నేడు చెయ్యకపోవడంతో మీరు <b>{name}</b> నుండి కాల్ మిస్ చేశారు.</string>

@@ -76,8 +76,8 @@ import kotlinx.coroutines.flow.mapNotNull
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ActivityConversationV2Binding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ActivityConversationV2Binding
 import network.loki.messenger.libsession_util.util.ExpiryMode
 import nl.komponents.kovenant.ui.successUi
 import org.session.libsession.database.StorageProtocol

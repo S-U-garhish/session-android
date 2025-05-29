@@ -153,7 +153,7 @@
     <string name="callsSettings">Calls (Beta)</string>
     <string name="callsVoiceAndVideo">Emmboozi ne Bidiyo Bye Werezebwa</string>
     <string name="callsVoiceAndVideoBeta">Emmboozi ne Bidiyo Bye Werezebwa (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">IP yo efulugettaka mu mateeka ne server ya Oxen Foundation nga okozeza omitting ekikugya ekiriotto.</string>
+    <string name="callsVoiceAndVideoModalDescription">IP yo efulugettaka mu mateeka ne server ya  nga okozeza omitting ekikugya ekiriotto.</string>
     <string name="callsVoiceAndVideoToggleDescription">Emidduka n’ebitambise okubira no okuva eri abakozesa abalala.</string>
     <string name="callsYouCalled">Weegambye {name}</string>
     <string name="callsYouMissedCallPermissions">Wanakuba omulilwana <b>{name}</b> kubanga tomeka meka <b>Okubagaane Kw\'amakowala n\'amacapa</b> mu Settings za Privacy.</string>

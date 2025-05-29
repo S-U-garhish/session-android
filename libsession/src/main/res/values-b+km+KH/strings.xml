@@ -153,7 +153,7 @@
     <string name="callsSettings">ការហៅ (បេតា)</string>
     <string name="callsVoiceAndVideo">ការហៅជាសំឡេង និងជា​វីដេអូ</string>
     <string name="callsVoiceAndVideoBeta">ការហៅជាសំឡេង និងជា​វីដេអូ (បេតា)</string>
-    <string name="callsVoiceAndVideoModalDescription">IP អ្នក​ត្រូវបាន​លេចឮ​ច្បាស់នៅពេល​អ្នក​ប្រើកិច្ចប្រជុំ Beta ក្នុង Oxen Foundation។</string>
+    <string name="callsVoiceAndVideoModalDescription">IP អ្នក​ត្រូវបាន​លេចឮ​ច្បាស់នៅពេល​អ្នក​ប្រើកិច្ចប្រជុំ Beta ក្នុង ។</string>
     <string name="callsVoiceAndVideoToggleDescription">បើកការហៅជាសំឡេង និងជាវីដេអូទៅកាន់ និងមកពីអ្នកប្រើផ្សេងទៀត។</string>
     <string name="callsYouCalled">អ្នកបានហៅ {name}</string>
     <string name="callsYouMissedCallPermissions">អ្នក​ធ្វើ​រំលងការហៅពី <b>{name}</b> ដោយសារ​អ្នកមិន​បានបើក <b>ការហៅសំឡេង និងវីដេអូ</b> នៅក្នុងការកំណត់ភាពឯកជន។</string>

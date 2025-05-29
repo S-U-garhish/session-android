@@ -153,7 +153,7 @@
     <string name="callsSettings">ზარები (Beta)</string>
     <string name="callsVoiceAndVideo">ხმოვანი და ვიდეო ზარები</string>
     <string name="callsVoiceAndVideoBeta">ხმოვანი და ვიდეო ზარები (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">თქვენი IP გააშკარავდება თქვენი ზარის პარტნიორს და Oxen Foundation-ის სერვერს, ბეტა ზარების გამოყენებისას.</string>
+    <string name="callsVoiceAndVideoModalDescription">თქვენი IP გააშკარავდება თქვენი ზარის პარტნიორს და -ის სერვერს, ბეტა ზარების გამოყენებისას.</string>
     <string name="callsVoiceAndVideoToggleDescription">ჩართავს ხმის და ვიდეო ზარებს სხვა მომხმარებლებისთვის დამატებით.</string>
     <string name="callsYouCalled">თქვენ დარეკეთ {name}-ს</string>
     <string name="callsYouMissedCallPermissions">თქვენ გამოტოვეთ ზარი <b>{name}</b>-ისგან რადგან თქვენ არ ჩართეთ <b>ხმა და ვიდეო ზარები</b> კონფიდენციალურობის პარამეტრებში.</string>

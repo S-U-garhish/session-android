@@ -4,7 +4,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import network.loki.messenger.BuildConfig
+import com.garhish.zillaf.BuildConfig
 import javax.inject.Singleton
 
 @Module

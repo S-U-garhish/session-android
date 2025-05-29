@@ -153,7 +153,7 @@
     <string name="callsSettings">Званкі (бэта)</string>
     <string name="callsVoiceAndVideo">Галасавыя і відэазванкі</string>
     <string name="callsVoiceAndVideoBeta">Галасавыя і відэазванкі (бэта)</string>
-    <string name="callsVoiceAndVideoModalDescription">Ваш IP будзе бачныя вашаму партнёру па званках і серверу Oxen Foundation падчас выкарыстання бэта-званкоў.</string>
+    <string name="callsVoiceAndVideoModalDescription">Ваш IP будзе бачныя вашаму партнёру па званках і серверу  падчас выкарыстання бэта-званкоў.</string>
     <string name="callsVoiceAndVideoToggleDescription">Дазваляе рабіць галасавыя і відэазванкі іншым карыстальнікам.</string>
     <string name="callsYouCalled">Вы патэлефанавалі {name}</string>
     <string name="callsYouMissedCallPermissions">Вы прапусцілі званок ад <b>{name}</b>, таму што не ўключылі <b>Галасавыя і відэазванкі</b> у наладах прыватнасці.</string>

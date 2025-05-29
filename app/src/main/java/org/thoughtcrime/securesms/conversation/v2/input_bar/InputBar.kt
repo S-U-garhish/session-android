@@ -16,8 +16,8 @@ import android.widget.TextView
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import com.bumptech.glide.RequestManager
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewInputBarBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewInputBarBinding
 import org.session.libsession.messaging.sending_receiving.link_preview.LinkPreview
 import org.session.libsession.utilities.TextSecurePreferences
 import org.session.libsession.utilities.recipients.Recipient

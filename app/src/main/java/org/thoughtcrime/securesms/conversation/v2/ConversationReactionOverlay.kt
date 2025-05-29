@@ -31,7 +31,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.LocalisedTimeUtil.toShortTwoPartString
 import org.session.libsession.messaging.groups.LegacyGroupDeprecationManager
 import org.session.libsession.snode.SnodeAPI

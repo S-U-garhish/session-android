@@ -17,13 +17,13 @@
         app:drawableStartCompat="@drawable/ic_info"
         app:drawableTint="?attr/colorControlNormal" />
 
-    <TextView
+    <!--<TextView
         android:id="@+id/copyConversationId"
         style="@style/BottomSheetActionItem"
         android:visibility="visible"
         android:text="@string/accountIDCopy"
         app:drawableStartCompat="@drawable/ic_copy"
-        app:drawableTint="?attr/colorControlNormal" />
+        app:drawableTint="?attr/colorControlNormal" />-->
 
     <TextView
         android:id="@+id/copyCommunityUrl"

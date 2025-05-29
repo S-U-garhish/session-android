@@ -154,7 +154,7 @@
     <string name="callsSettings">Iitsalela (Beta)</string>
     <string name="callsVoiceAndVideo">Iifowuni zeSandi neeVidiyo</string>
     <string name="callsVoiceAndVideoBeta">Iifowuni zeSandi neeVidiyo (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">I-IP yakho iyabonakala komnxibelele wakho nakwiOxen Foundation Server ngelixa usebenzisa i-beta calls.</string>
+    <string name="callsVoiceAndVideoModalDescription">I-IP yakho iyabonakala komnxibelele wakho nakwi Server ngelixa usebenzisa i-beta calls.</string>
     <string name="callsVoiceAndVideoToggleDescription">Vumela i-voice ne-video calls ukuba zithumeletyayanayo nabanye abasebenzisi.</string>
     <string name="callsYouCalled">Wakubidde {name}</string>
     <string name="callsYouMissedCallPermissions">Uphoswe ngumnxeba ovela ku <b>{name}</b> kuba awuvulanga i<b>Voice and Video Calls</b> kuSeto loBukeko Olwahlukileyo.</string>

@@ -153,7 +153,7 @@
     <string name="callsSettings">Samtaler (Beta)</string>
     <string name="callsVoiceAndVideo">Lyd- og videosamtaler</string>
     <string name="callsVoiceAndVideoBeta">Lyd- og videosamtaler (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">IP-adressen din er synlig for samtalepartneren din og en Oxen Foundation-server mens du bruker betasamtaler.</string>
+    <string name="callsVoiceAndVideoModalDescription">IP-adressen din er synlig for samtalepartneren din og en -server mens du bruker betasamtaler.</string>
     <string name="callsVoiceAndVideoToggleDescription">Aktiverer tale- og videosamtaler til og fra andre brukere.</string>
     <string name="callsYouCalled">Du ringte {name}</string>
     <string name="callsYouMissedCallPermissions">Du gikk glipp av en samtale fra <b>{name}</b> fordi du ikke har aktivert <b>Tal &amp; Video-samtaler</b> i Personverninnstillingene.</string>

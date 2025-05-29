@@ -20,7 +20,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 import org.thoughtcrime.securesms.components.AnimatingToggle;
 
 public class GiphyActivityToolbar extends Toolbar {

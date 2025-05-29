@@ -11,7 +11,7 @@ import androidx.annotation.OptIn;
 import androidx.fragment.app.Fragment;
 import androidx.media3.common.util.UnstableApi;
 import java.io.IOException;
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 import org.session.libsignal.utilities.Log;
 import org.thoughtcrime.securesms.mms.VideoSlide;
 import org.thoughtcrime.securesms.util.FilenameUtils;

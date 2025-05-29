@@ -162,7 +162,7 @@
     <string name="callsSettings">Дзвінки (Beta)</string>
     <string name="callsVoiceAndVideo">Голосові та відеодзвінки</string>
     <string name="callsVoiceAndVideoBeta">Голосові та відеодзвінки (бета-версія)</string>
-    <string name="callsVoiceAndVideoModalDescription">Ваша IP-адреса видима вашому партнеру по дзвінку та серверу Oxen Foundation при використанні бета-дзвінків.</string>
+    <string name="callsVoiceAndVideoModalDescription">Ваша IP-адреса видима вашому партнеру по дзвінку та серверу  при використанні бета-дзвінків.</string>
     <string name="callsVoiceAndVideoToggleDescription">Дозволяє голосові та відеодзвінки з іншими користувачами.</string>
     <string name="callsYouCalled">Ви дзвонили {name}</string>
     <string name="callsYouMissedCallPermissions">Ви пропустили дзвінок від <b>{name}</b>, бо не увімкнули <b>Голосові та відеодзвінки</b> у налаштуваннях конфіденційності.</string>

@@ -59,8 +59,8 @@ import com.bumptech.glide.integration.compose.GlideImage
 import com.bumptech.glide.integration.compose.placeholder
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewVisibleMessageContentBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewVisibleMessageContentBinding
 import org.session.libsession.database.StorageProtocol
 import org.session.libsession.messaging.sending_receiving.attachments.DatabaseAttachment
 import org.thoughtcrime.securesms.MediaPreviewActivity.getPreviewIntent

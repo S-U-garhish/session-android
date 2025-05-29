@@ -163,7 +163,7 @@
     <string name="callsSettings">Anrufe (Beta)</string>
     <string name="callsVoiceAndVideo">Sprach- und Videoanrufe</string>
     <string name="callsVoiceAndVideoBeta">Sprach- und Videoanrufe (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Deine IP ist für deinen Gesprächspartner und einen Oxen Foundation Server sichtbar, während du Beta-Anrufe nutzt.</string>
+    <string name="callsVoiceAndVideoModalDescription">Deine IP ist für deinen Gesprächspartner und einen  Server sichtbar, während du Beta-Anrufe nutzt.</string>
     <string name="callsVoiceAndVideoToggleDescription">Aktiviert Sprach- und Videoanrufe an und von anderen Benutzern.</string>
     <string name="callsYouCalled">Du hast {name} angerufen</string>
     <string name="callsYouMissedCallPermissions">Du hast einen Anruf von <b>{name}</b> verpasst, weil du <b>Sprach- und Videoanrufe</b> in den Datenschutzeinstellungen nicht aktiviert hast.</string>

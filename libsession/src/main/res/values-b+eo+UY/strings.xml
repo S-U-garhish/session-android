@@ -153,7 +153,7 @@
     <string name="callsSettings">Vokoj (Beto)</string>
     <string name="callsVoiceAndVideo">Voĉaj kaj Videaj Vokoj</string>
     <string name="callsVoiceAndVideoBeta">Voĉaj kaj Videaj Vokoj (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Via IP-adreso estas videbla al via vokopartnero kaj al servilo de Oxen Foundation dum vi uzas betajn vokojn.</string>
+    <string name="callsVoiceAndVideoModalDescription">Via IP-adreso estas videbla al via vokopartnero kaj al servilo de  dum vi uzas betajn vokojn.</string>
     <string name="callsVoiceAndVideoToggleDescription">Ebligas voĉajn kaj vidajn vokojn al kaj de aliaj uzantoj.</string>
     <string name="callsYouCalled">Vi alvokis {name}</string>
     <string name="callsYouMissedCallPermissions">Vi maltrafis vokon de <b>{name}</b> ĉar vi ne ebligis <b>Voĉajn kaj Video-Vokojn</b> en la Privateco-Agordoj.</string>

@@ -153,7 +153,7 @@
     <string name="callsSettings">Opkald (Beta)</string>
     <string name="callsVoiceAndVideo">Lyd- og videoopkald</string>
     <string name="callsVoiceAndVideoBeta">Lyd- og videoopkald (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Din IP synlig for din opkaldspartner og en Oxen Foundation-server, mens du bruger betaopkald.</string>
+    <string name="callsVoiceAndVideoModalDescription">Din IP synlig for din opkaldspartner og en -server, mens du bruger betaopkald.</string>
     <string name="callsVoiceAndVideoToggleDescription">Aktiverer lyd- og videoopkald til og fra andre brugere.</string>
     <string name="callsYouCalled">Du ringede til {name}</string>
     <string name="callsYouMissedCallPermissions">Du gik glip af et opkald fra <b>{name}</b>, fordi du ikke har aktiveret <b>Stemmen- og videoopkald</b> i privatindstillinger.</string>

@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import dagger.hilt.android.AndroidEntryPoint;
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 
 /**
  * Allows the user to select a set of media items from a specified folder.

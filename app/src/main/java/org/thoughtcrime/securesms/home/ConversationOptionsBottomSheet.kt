@@ -9,8 +9,8 @@ import androidx.core.view.isVisible
 import androidx.core.widget.TextViewCompat
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
-import network.loki.messenger.databinding.FragmentConversationBottomSheetBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.FragmentConversationBottomSheetBinding
 import org.session.libsession.messaging.groups.LegacyGroupDeprecationManager
 import org.session.libsession.utilities.GroupRecord
 import org.session.libsession.utilities.getGroup
@@ -55,7 +55,7 @@ class ConversationOptionsBottomSheet(private val parentContext: Context) : Botto
     override fun onClick(v: View?) {
         when (v) {
             binding.detailsTextView -> onViewDetailsTapped?.invoke()
-            binding.copyConversationId -> onCopyConversationId?.invoke()
+            //binding.copyConversationId -> onCopyConversationId?.invoke()
             binding.copyCommunityUrl -> onCopyConversationId?.invoke()
             binding.pinTextView -> onPinTapped?.invoke()
             binding.unpinTextView -> onUnpinTapped?.invoke()
@@ -87,11 +87,11 @@ class ConversationOptionsBottomSheet(private val parentContext: Context) : Botto
         val isDeprecatedLegacyGroup = recipient.isLegacyGroupRecipient &&
                 deprecationManager.isDeprecated
 
-        binding.copyConversationId.isVisible = !recipient.isGroupOrCommunityRecipient
-                && !recipient.isLocalNumber
-                && !isDeprecatedLegacyGroup
+        //binding.copyConversationId.isVisible = !recipient.isGroupOrCommunityRecipient
+        //        && !recipient.isLocalNumber
+        //        && !isDeprecatedLegacyGroup
 
-        binding.copyConversationId.setOnClickListener(this)
+        //binding.copyConversationId.setOnClickListener(this)
         binding.copyCommunityUrl.isVisible = recipient.isCommunityRecipient
         binding.copyCommunityUrl.setOnClickListener(this)
 

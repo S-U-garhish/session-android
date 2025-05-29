@@ -147,7 +147,7 @@
     <string name="callsSettings">Zvani (Beta)</string>
     <string name="callsVoiceAndVideo">Balss un video zvani</string>
     <string name="callsVoiceAndVideoBeta">Balss un video zvani (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Izmantojot beta zvanus, jūsu IP ir redzams jūsu zvana partnerim un Oxen Foundation serverim.</string>
+    <string name="callsVoiceAndVideoModalDescription">Izmantojot beta zvanus, jūsu IP ir redzams jūsu zvana partnerim un  serverim.</string>
     <string name="callsVoiceAndVideoToggleDescription">Iespējot balss un video zvanus uz un no citiem lietotājiem.</string>
     <string name="callsYouCalled">Jūs zvanījāt {name}</string>
     <string name="callsYouMissedCallPermissions">Jūs nokavējāt zvanu no <b>{name}</b>, jo jums nav iespējoti <b>Balss un video zvani</b> privātuma iestatījumos.</string>

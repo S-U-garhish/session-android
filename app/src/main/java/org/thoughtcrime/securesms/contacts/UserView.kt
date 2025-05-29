@@ -7,8 +7,8 @@ import android.view.View
 import android.widget.LinearLayout
 import com.bumptech.glide.RequestManager
 import dagger.hilt.android.AndroidEntryPoint
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ViewUserBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ViewUserBinding
 import org.session.libsession.utilities.UsernameUtils
 import org.session.libsession.utilities.recipients.Recipient
 import javax.inject.Inject

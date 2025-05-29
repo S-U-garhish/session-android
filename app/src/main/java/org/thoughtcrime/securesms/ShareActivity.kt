@@ -34,7 +34,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import java.io.FileInputStream
 import java.io.IOException
 import java.lang.IllegalArgumentException
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.Address
 import org.session.libsession.utilities.Address.Companion.fromExternal
 import org.session.libsession.utilities.DistributionTypes

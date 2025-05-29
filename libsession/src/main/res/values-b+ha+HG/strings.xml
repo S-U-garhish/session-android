@@ -153,7 +153,7 @@
     <string name="callsSettings">Kira (Beta)</string>
     <string name="callsVoiceAndVideo">Kiran Muryar da Bidiyo</string>
     <string name="callsVoiceAndVideoBeta">Kiran Muryar da Bidiyo (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">IP ɗinku yana bayyane ga abokin kiran ku da sabar Oxen Foundation yayin amfani da ƙiran beta.</string>
+    <string name="callsVoiceAndVideoModalDescription">IP ɗinku yana bayyane ga abokin kiran ku da sabar  yayin amfani da ƙiran beta.</string>
     <string name="callsVoiceAndVideoToggleDescription">Yana ba da kiran murya da bidiyo zuwa da daga wasu masu amfani.</string>
     <string name="callsYouCalled">Ka kira {name}</string>
     <string name="callsYouMissedCallPermissions">Kun rasa kira daga <b>{name}</b> saboda ba ku kunna <b>kiran murya da bidiyo</b> a Saitunan Sirrin ba.</string>

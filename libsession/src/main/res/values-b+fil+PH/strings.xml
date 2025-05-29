@@ -153,7 +153,7 @@
     <string name="callsSettings">Mga Tawag (Beta)</string>
     <string name="callsVoiceAndVideo">Mga Voice at Video Call</string>
     <string name="callsVoiceAndVideoBeta">Mga Voice at Video Call (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Ang iyong IP ay nakikita ng iyong kasamahan sa tawag at isang server ng Oxen Foundation habang gumagamit ng beta calls.</string>
+    <string name="callsVoiceAndVideoModalDescription">Ang iyong IP ay nakikita ng iyong kasamahan sa tawag at isang server ng  habang gumagamit ng beta calls.</string>
     <string name="callsVoiceAndVideoToggleDescription">Ini-enable ang mga voice at video call papunta at mula sa iba pang mga user.</string>
     <string name="callsYouCalled">Tinawag mo si {name}</string>
     <string name="callsYouMissedCallPermissions">Nakamiss ka ng tawag mula kay <b>{name}</b> dahil hindi mo pinagana ang <b>Voice and Video Calls</b> sa Privacy Settings.</string>

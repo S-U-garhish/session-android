@@ -14,7 +14,7 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsession.snode.OnionRequestAPI
 import org.thoughtcrime.securesms.util.toPx
 
@@ -62,7 +62,7 @@ class PathStatusView : View {
                     withContext(Dispatchers.Main) {
                         if (pathsBuilt) {
                             setBackgroundResource(R.drawable.accent_dot)
-                            val hasPathsColor = context.getColor(R.color.accent_green)
+                            val hasPathsColor = context.getColor(R.color.accent_orange)
                             mainColor = hasPathsColor
                             sessionShadowColor = hasPathsColor
                         } else {

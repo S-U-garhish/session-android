@@ -91,9 +91,9 @@ import javax.inject.Inject;
 
 import dagger.hilt.android.AndroidEntryPoint;
 import kotlin.Unit;
-import network.loki.messenger.R;
-import network.loki.messenger.databinding.MediaPreviewActivityBinding;
-import network.loki.messenger.databinding.MediaViewPageBinding;
+import com.garhish.zillaf.R;
+import com.garhish.zillaf.databinding.MediaPreviewActivityBinding;
+import com.garhish.zillaf.databinding.MediaViewPageBinding;
 
 /**
  * Activity for displaying media attachments in-app

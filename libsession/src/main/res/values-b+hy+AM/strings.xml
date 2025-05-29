@@ -153,7 +153,7 @@
     <string name="callsSettings">Զանգեր (Բետա)</string>
     <string name="callsVoiceAndVideo">Ձայնային և տեսազանգեր</string>
     <string name="callsVoiceAndVideoBeta">Ձայնային և տեսազանգեր (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Ձեր IP հասցեն տեսանելի է ձեր զանգի գործընկերոջը և մի \'Oxen Foundation\' սերվերին ծիծլած օգտագործման ժամանակ։</string>
+    <string name="callsVoiceAndVideoModalDescription">Ձեր IP հասցեն տեսանելի է ձեր զանգի գործընկերոջը և մի \'\' սերվերին ծիծլած օգտագործման ժամանակ։</string>
     <string name="callsVoiceAndVideoToggleDescription">Միացնում է ձայնային և տեսազանգերը դեպի և այլ օգտվողների հետ:</string>
     <string name="callsYouCalled">Դուք զանգահարել եք {name}</string>
     <string name="callsYouMissedCallPermissions">Դուք բաց եք թողել զանգը <b>{name}</b>֊ից, քանի որ չեք միացել <b>ձայնային և տեսազանգեր</b> գաղտնիության կարգավորումներում։</string>

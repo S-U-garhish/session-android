@@ -153,7 +153,7 @@
     <string name="callsSettings">Обаждания (Beta)</string>
     <string name="callsVoiceAndVideo">Гласови и видео разговори</string>
     <string name="callsVoiceAndVideoBeta">Гласови и видеозаписи (Бета)</string>
-    <string name="callsVoiceAndVideoModalDescription">Вашият IP е видим за вашият партньор по време нослужване на beta обаждания и Oxen Foundation сървър.</string>
+    <string name="callsVoiceAndVideoModalDescription">Вашият IP е видим за вашият партньор по време нослужване на beta обаждания и  сървър.</string>
     <string name="callsVoiceAndVideoToggleDescription">Активира гласови и видеообаждания към и от други потребители.</string>
     <string name="callsYouCalled">Извикахте {name}</string>
     <string name="callsYouMissedCallPermissions">Пропуснахте обаждане от <b>{name}</b> защото не сте активирали <b>Гласови и видео разговори</b> в Настройки за поверителност.</string>

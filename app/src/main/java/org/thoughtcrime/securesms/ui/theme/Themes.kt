@@ -95,5 +95,5 @@ fun PreviewTheme(
 
 // used for previews
 class SessionColorsParameterProvider : PreviewParameterProvider<ThemeColors> {
-    override val values = sequenceOf(ClassicDark(), ClassicLight(), OceanDark(), OceanLight())
+    override val values = sequenceOf(ClassicDark(), ClassicLight())
 }

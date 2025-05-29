@@ -153,7 +153,7 @@
     <string name="callsSettings">کالونه (بیټا)</string>
     <string name="callsVoiceAndVideo">د زوګ او ویډیو زنګونه</string>
     <string name="callsVoiceAndVideoBeta">زوګ او ویډیو زنګونه (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">ستاسو IP ستاسو د زنګ ملګري او یو Oxen Foundation سرور ته ښکاره کیږي کله چې بیتا زنګونه کاروئ.</string>
+    <string name="callsVoiceAndVideoModalDescription">ستاسو IP ستاسو د زنګ ملګري او یو  سرور ته ښکاره کیږي کله چې بیتا زنګونه کاروئ.</string>
     <string name="callsVoiceAndVideoToggleDescription">د نورو کاروونکو سره غږ او ویدیو زنګونه فعالوي.</string>
     <string name="callsYouCalled">تاسو{name}. ته زنګ ووهلو</string>
     <string name="callsYouMissedCallPermissions">تاسو له <b>{name}</b> څخه یو زنګ له لاسه ورکړی ځکه چې تاسو په محرمیت تنظیماتو کې <b>د غږ او ویډیو زنګونه</b> فعال نکړي.</string>

@@ -12,8 +12,8 @@ import androidx.core.view.children
 import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
-import network.loki.messenger.R
-import network.loki.messenger.databinding.ActivityAppearanceSettingsBinding
+import com.garhish.zillaf.R
+import com.garhish.zillaf.databinding.ActivityAppearanceSettingsBinding
 import org.session.libsession.utilities.TextSecurePreferences.Companion.CLASSIC_DARK
 import org.session.libsession.utilities.TextSecurePreferences.Companion.CLASSIC_LIGHT
 import org.session.libsession.utilities.TextSecurePreferences.Companion.OCEAN_DARK
@@ -37,12 +37,12 @@ class AppearanceSettingsActivity: ScreenLockActionBarActivity(), View.OnClickLis
 
     private val accentColors by lazy {
         mapOf(
+            binding.accentOrange to R.style.PrimaryOrange,
             binding.accentGreen to R.style.PrimaryGreen,
             binding.accentBlue to R.style.PrimaryBlue,
             binding.accentYellow to R.style.PrimaryYellow,
             binding.accentPink to R.style.PrimaryPink,
             binding.accentPurple to R.style.PrimaryPurple,
-            binding.accentOrange to R.style.PrimaryOrange,
             binding.accentRed to R.style.PrimaryRed
         )
     }
@@ -53,10 +53,6 @@ class AppearanceSettingsActivity: ScreenLockActionBarActivity(), View.OnClickLis
             binding.themeRadioClassicDark,
             binding.themeOptionClassicLight,
             binding.themeRadioClassicLight,
-            binding.themeOptionOceanDark,
-            binding.themeRadioOceanDark,
-            binding.themeOptionOceanLight,
-            binding.themeRadioOceanLight
         )
     }
 
@@ -72,16 +68,14 @@ class AppearanceSettingsActivity: ScreenLockActionBarActivity(), View.OnClickLis
             val (mappedStyle, newBase) = when (v) {
                 binding.themeOptionClassicDark, binding.themeRadioClassicDark -> CLASSIC_DARK to R.style.Classic
                 binding.themeOptionClassicLight, binding.themeRadioClassicLight -> CLASSIC_LIGHT to R.style.Classic
-                binding.themeOptionOceanDark, binding.themeRadioOceanDark -> OCEAN_DARK to R.style.Ocean
-                binding.themeOptionOceanLight, binding.themeRadioOceanLight -> OCEAN_LIGHT to R.style.Ocean
                 else -> throw NullPointerException("Invalid style for view [$v]")
             }
             viewModel.setNewStyle(mappedStyle)
             if (currentBase != newBase) {
                 if (newBase == R.style.Ocean) {
-                    viewModel.setNewAccent(R.style.PrimaryBlue)
+                    viewModel.setNewAccent(R.style.PrimaryOrange)
                 } else if (newBase == R.style.Classic) {
-                    viewModel.setNewAccent(R.style.PrimaryGreen)
+                    viewModel.setNewAccent(R.style.PrimaryOrange)
                 }
             }
         }
@@ -98,8 +92,6 @@ class AppearanceSettingsActivity: ScreenLockActionBarActivity(), View.OnClickLis
         mapOf(
             R.style.Classic_Dark to binding.themeRadioClassicDark,
             R.style.Classic_Light to binding.themeRadioClassicLight,
-            R.style.Ocean_Dark to binding.themeRadioOceanDark,
-            R.style.Ocean_Light to binding.themeRadioOceanLight
         ).forEach { (style, view) ->
             view.isChecked = themeStyle == style
         }

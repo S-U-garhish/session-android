@@ -23,8 +23,8 @@ fun TextSecurePreferences.getColorsProvider(): ThemeColorsProvider {
 
     val isOcean = "ocean" in selectedTheme
 
-    val createLight = if (isOcean) ::OceanLight else ::ClassicLight
-    val createDark = if (isOcean) ::OceanDark else ::ClassicDark
+    val createLight = ::ClassicLight
+    val createDark = ::ClassicDark
 
     return when {
         getFollowSystemSettings() -> FollowSystemThemeColorsProvider(

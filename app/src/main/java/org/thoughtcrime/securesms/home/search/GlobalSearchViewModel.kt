@@ -16,7 +16,7 @@ import kotlinx.coroutines.flow.merge
 import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.flow.shareIn
 import kotlinx.coroutines.withContext
-import network.loki.messenger.R
+import com.garhish.zillaf.R
 import org.session.libsignal.utilities.Log
 import org.thoughtcrime.securesms.database.DatabaseContentProviders
 import org.thoughtcrime.securesms.dependencies.ConfigFactory

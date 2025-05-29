@@ -13,8 +13,8 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
-import network.loki.messenger.BuildConfig
-import network.loki.messenger.R
+import com.garhish.zillaf.BuildConfig
+import com.garhish.zillaf.R
 import org.session.libsession.utilities.TextSecurePreferences
 import org.session.libsession.utilities.TextSecurePreferences.Companion.isPasswordDisabled
 import org.session.libsession.utilities.TextSecurePreferences.Companion.setScreenLockEnabled
@@ -47,6 +47,7 @@ class PrivacySettingsPreferenceFragment : CorrectedPreferenceFragment() {
             .onPreferenceChangeListener = TypingIndicatorsToggleListener()
         findPreference<Preference>(TextSecurePreferences.CALL_NOTIFICATIONS_ENABLED)!!
             .onPreferenceChangeListener = CallToggleListener(this) { setCall(it) }
+        /*
         findPreference<PreferenceCategory>(getString(R.string.sessionMessageRequests))?.let { category ->
             SwitchPreferenceCompat(requireContext()).apply {
                 key = TextSecurePreferences.ALLOW_MESSAGE_REQUESTS
@@ -75,6 +76,8 @@ class PrivacySettingsPreferenceFragment : CorrectedPreferenceFragment() {
                 summary = getString(R.string.messageRequestsCommunitiesDescription)
             }.let(category::addPreference)
         }
+
+        */
         initializeVisibility()
 
     }

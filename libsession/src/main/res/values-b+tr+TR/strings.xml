@@ -154,7 +154,7 @@
     <string name="callsSettings">Aramalar (Beta)</string>
     <string name="callsVoiceAndVideo">Sesli ve Görüntülü Aramalar</string>
     <string name="callsVoiceAndVideoBeta">Sesli ve Görüntülü Aramalar (Deneme Aşamasında)</string>
-    <string name="callsVoiceAndVideoModalDescription">Deneme aramaları sırasında IP adresiniz arama ortağınıza ve Oxen Foundation sunucusuna görünür olacaktır.</string>
+    <string name="callsVoiceAndVideoModalDescription">Deneme aramaları sırasında IP adresiniz arama ortağınıza ve  sunucusuna görünür olacaktır.</string>
     <string name="callsVoiceAndVideoToggleDescription">Diğer kullanıcılara ve diğer kullanıcılardan sesli ve görüntülü arama yapılmasını sağlar.</string>
     <string name="callsYouCalled">{name} kullanıcısını aradınız</string>
     <string name="callsYouMissedCallPermissions"><b>{name}</b> kişisinden gelen bir çağrıyı, <b>Ses ve Video Görüşmeleri</b> özelliğini Gizlilik Ayarlarında etkinleştirmediğiniz için kaçırdınız.</string>

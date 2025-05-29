@@ -154,7 +154,7 @@
     <string name="callsSettings">การโทร (เบต้า)</string>
     <string name="callsVoiceAndVideo">การโทรด้วยเสียงและวิดีโอ.</string>
     <string name="callsVoiceAndVideoBeta">การโทรด้วยเสียงและวิดีโอ (Beta).</string>
-    <string name="callsVoiceAndVideoModalDescription">IP ของคุณจะสามารถมองเห็นได้โดยคู่สายของคุณและเซิร์ฟเวอร์ของ Oxen Foundation ในขณะที่ใช้เบต้าการโทร</string>
+    <string name="callsVoiceAndVideoModalDescription">IP ของคุณจะสามารถมองเห็นได้โดยคู่สายของคุณและเซิร์ฟเวอร์ของ  ในขณะที่ใช้เบต้าการโทร</string>
     <string name="callsVoiceAndVideoToggleDescription">เปิดการโทรด้วยเสียงและวิดีโอไปยังและจากผู้ใช้รายอื่น</string>
     <string name="callsYouCalled">คุณได้โทรหา {name}</string>
     <string name="callsYouMissedCallPermissions">คุณพลาดสายจาก <b>{name}​</b> เพราะคุณไม่ได้เปิดใช้งาน <b>การโทรด้วยเสียงและวิดีโอ</b> ในการตั้งค่าความเป็นส่วนตัว</string>

@@ -154,7 +154,7 @@
     <string name="callsSettings">Κλήσεις (Beta)</string>
     <string name="callsVoiceAndVideo">Κλήσεις Φωνής και Βίντεο</string>
     <string name="callsVoiceAndVideoBeta">Κλήσεις Φωνής και Βίντεο (Beta)</string>
-    <string name="callsVoiceAndVideoModalDescription">Η διεύθυνση IP σας είναι ορατή στον συνομιλητή σας και σε έναν διακομιστή του Oxen Foundation κατά τη χρήση κλήσεων beta.</string>
+    <string name="callsVoiceAndVideoModalDescription">Η διεύθυνση IP σας είναι ορατή στον συνομιλητή σας και σε έναν διακομιστή του  κατά τη χρήση κλήσεων beta.</string>
     <string name="callsVoiceAndVideoToggleDescription">Επιτρέπει κλήσεις φωνής και βίντεο από και προς άλλους χρήστες.</string>
     <string name="callsYouCalled">Καλέσατε {name}</string>
     <string name="callsYouMissedCallPermissions">Χάσατε μια κλήση από <b>{name}</b> επειδή δεν έχετε ενεργοποιήσει τις <b>Κλήσεις Φωνής και Βίντεο</b> στις Ρυθμίσεις Απορρήτου.</string>

@@ -31,7 +31,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import com.squareup.phrase.Phrase;
 import kotlin.Pair;
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 import org.session.libsession.messaging.utilities.UpdateMessageData;
 import org.session.libsession.utilities.TextSecurePreferences;
 import org.session.libsession.utilities.recipients.Recipient;

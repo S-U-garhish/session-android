@@ -38,7 +38,7 @@ import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
 
 import dagger.hilt.android.AndroidEntryPoint;
-import network.loki.messenger.R;
+import com.garhish.zillaf.R;
 import org.session.libsignal.utilities.Log;
 import com.bumptech.glide.Glide;
 import org.session.libsession.utilities.ServiceUtil;
