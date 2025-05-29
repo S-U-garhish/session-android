@@ -58,7 +58,7 @@ class ProfilePictureView @JvmOverloads constructor(
     private val resourcePadding by lazy {
         context.resources.getDimensionPixelSize(R.dimen.normal_padding).toFloat()
     }
-    private val unknownOpenGroupDrawable by lazy { ResourceContactPhoto(R.drawable.ic_notification)
+    private val unknownOpenGroupDrawable by lazy { ResourceContactPhoto(R.drawable.zillaf_icon)
         .asDrawable(context, ContactColors.UNKNOWN_COLOR.toConversationColor(context), false, resourcePadding) }
 
     constructor(context: Context, sender: Recipient): this(context) {

@@ -26,7 +26,7 @@ class MultipleRecipientNotificationBuilder(context: Context, privacy: Notificati
 
     init {
         color = context.resources.getColor(R.color.textsecure_primary)
-        setSmallIcon(R.drawable.ic_notification)
+        setSmallIcon(R.drawable.zillaf_icon)
         setContentTitle(context.getString(R.string.app_name))
         setContentIntent(PendingIntent.getActivity(context, 0, Intent(context, HomeActivity::class.java), PendingIntent.FLAG_IMMUTABLE))
         setCategory(NotificationCompat.CATEGORY_MESSAGE)

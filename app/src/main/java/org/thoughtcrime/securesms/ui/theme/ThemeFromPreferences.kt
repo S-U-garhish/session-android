@@ -3,6 +3,7 @@ package org.thoughtcrime.securesms.ui.theme
 import androidx.compose.ui.graphics.Color
 import org.session.libsession.utilities.TextSecurePreferences
 import org.session.libsession.utilities.TextSecurePreferences.Companion.BLUE_ACCENT
+import org.session.libsession.utilities.TextSecurePreferences.Companion.GREEN_ACCENT
 import org.session.libsession.utilities.TextSecurePreferences.Companion.ORANGE_ACCENT
 import org.session.libsession.utilities.TextSecurePreferences.Companion.PINK_ACCENT
 import org.session.libsession.utilities.TextSecurePreferences.Companion.PURPLE_ACCENT
@@ -43,5 +44,6 @@ fun TextSecurePreferences.primaryColor(): Color = when(getSelectedAccentColor())
     RED_ACCENT -> primaryRed
     ORANGE_ACCENT -> primaryOrange
     YELLOW_ACCENT -> primaryYellow
-    else -> primaryGreen
+    GREEN_ACCENT -> primaryGreen
+    else -> primaryOrange
 }

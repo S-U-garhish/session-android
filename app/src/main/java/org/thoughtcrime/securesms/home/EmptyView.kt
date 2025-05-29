@@ -37,7 +37,7 @@ internal fun EmptyView(newAccount: Boolean) {
     ) {
         Spacer(modifier = Modifier.weight(1f))
         Icon(
-            painter = painterResource(id = if (newAccount) R.drawable.emoji_tada_large else R.drawable.ic_logo_large),
+            painter = painterResource(id = if (newAccount) R.drawable.emoji_tada_large else R.drawable.zillaf_icon),
             contentDescription = null,
             tint = Color.Unspecified
         )

@@ -63,7 +63,7 @@ public class SingleRecipientNotificationBuilder extends AbstractNotificationBuil
   {
     super(context, privacy);
 
-    setSmallIcon(R.drawable.ic_notification);
+    setSmallIcon(R.drawable.zillaf_icon);
     setColor(ContextCompat.getColor(context, R.color.accent_orange));
     setCategory(NotificationCompat.CATEGORY_MESSAGE);
   }

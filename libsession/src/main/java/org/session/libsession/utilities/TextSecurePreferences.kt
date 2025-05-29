@@ -32,6 +32,7 @@ import org.session.libsession.utilities.TextSecurePreferences.Companion.LAST_VER
 import org.session.libsession.utilities.TextSecurePreferences.Companion.LEGACY_PREF_KEY_SELECTED_UI_MODE
 import org.session.libsession.utilities.TextSecurePreferences.Companion.OCEAN_DARK
 import org.session.libsession.utilities.TextSecurePreferences.Companion.OCEAN_LIGHT
+import org.session.libsession.utilities.TextSecurePreferences.Companion.ORANGE_ACCENT
 import org.session.libsession.utilities.TextSecurePreferences.Companion.SELECTED_ACCENT_COLOR
 import org.session.libsession.utilities.TextSecurePreferences.Companion.SELECTED_STYLE
 import org.session.libsession.utilities.TextSecurePreferences.Companion.SHOWN_CALL_NOTIFICATION
@@ -1628,7 +1629,7 @@ class AppTextSecurePreferences @Inject constructor(
     }
 
     override fun getSelectedAccentColor(): String? =
-        getStringPreference(SELECTED_ACCENT_COLOR, null)
+        getStringPreference(SELECTED_ACCENT_COLOR, ORANGE_ACCENT)
 
     @StyleRes
     override fun getAccentColorStyle(): Int? {
@@ -1640,7 +1641,7 @@ class AppTextSecurePreferences @Inject constructor(
             TextSecurePreferences.RED_ACCENT -> R.style.PrimaryRed
             TextSecurePreferences.ORANGE_ACCENT -> R.style.PrimaryOrange
             TextSecurePreferences.YELLOW_ACCENT -> R.style.PrimaryYellow
-            else -> null
+            else -> R.style.PrimaryOrange
         }
     }
 
@@ -1654,7 +1655,7 @@ class AppTextSecurePreferences @Inject constructor(
                 R.style.PrimaryRed -> TextSecurePreferences.RED_ACCENT
                 R.style.PrimaryOrange -> TextSecurePreferences.ORANGE_ACCENT
                 R.style.PrimaryYellow -> TextSecurePreferences.YELLOW_ACCENT
-                else -> null
+                else -> TextSecurePreferences.ORANGE_ACCENT
             }
         )
     }

@@ -194,7 +194,7 @@ class PushReceiver @Inject constructor(
         }
 
         val builder = NotificationCompat.Builder(context, NotificationChannels.OTHER)
-            .setSmallIcon(R.drawable.ic_notification)
+            .setSmallIcon(R.drawable.zillaf_icon)
             .setColor(context.getColor(R.color.textsecure_primary))
             .setContentTitle(getString(context, R.string.app_name))
 

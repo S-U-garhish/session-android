@@ -41,8 +41,8 @@ public class BlobProvider {
   private static final String MULTI_SESSION_DIRECTORY  = "multi_session_blobs";
   private static final String SINGLE_SESSION_DIRECTORY = "single_session_blobs";
 
-  public static final Uri        CONTENT_URI = Uri.parse("content://network.loki.provider.securesms/blob");
-  public static final String     AUTHORITY   = "network.loki.provider.securesms";
+  public static final Uri        CONTENT_URI = Uri.parse("content://network.garhish.provider.securesms/blob");
+  public static final String     AUTHORITY   = "network.garhish.provider.securesms";
   public static final String     PATH        = "blob/*/*/*/*/*";
 
   private static final int STORAGE_TYPE_PATH_SEGMENT = 1;

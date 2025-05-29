@@ -73,7 +73,7 @@ public class UpdateApkReadyListener extends BroadcastReceiver {
         .setOngoing(true)
         .setContentTitle(title)
         .setContentText(txt)
-        .setSmallIcon(R.drawable.ic_notification)
+        .setSmallIcon(R.drawable.zillaf_icon)
         .setColor(context.getResources().getColor(R.color.textsecure_primary))
         .setPriority(NotificationCompat.PRIORITY_HIGH)
         .setCategory(NotificationCompat.CATEGORY_REMINDER)
