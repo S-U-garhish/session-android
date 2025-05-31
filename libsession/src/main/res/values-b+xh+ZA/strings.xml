@@ -460,7 +460,7 @@
     <string name="helpReportABugExportLogsDescription">Thumela iilogs zakho, uze ulayishe ifayile kwi-Help Desk yase {app_name}.</string>
     <string name="helpReportABugExportLogsSaveToDesktop">Gcina kwi desktop</string>
     <string name="helpReportABugExportLogsSaveToDesktopDescription">Gcina le fayile kwi desktop yakho, uze uyibonise abaphuhlisi be-{app_name}.</string>
-    <string name="helpSupport">Support</string>
+    <string name="helpSupport">CSAEに対する基準</string>
     <string name="helpWedLoveYourFeedback">Sicela ingxelo yakho</string>
     <string name="hide">Fihla</string>
     <string name="hideMenuBarDescription">Guqula ukubonakalisa kwebar yeendlela zenkqubo</string>

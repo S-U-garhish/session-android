@@ -459,7 +459,7 @@
     <string name="helpReportABugExportLogsDescription">Eksportér dine logs, og upload derefter filen via {app_name}\'s Help Desk.</string>
     <string name="helpReportABugExportLogsSaveToDesktop">Gem til desktop</string>
     <string name="helpReportABugExportLogsSaveToDesktopDescription">Gemt denne fil til din desktop, og del den derefter med {app_name} udviklere.</string>
-    <string name="helpSupport">Support</string>
+    <string name="helpSupport">Against CSAE</string>
     <string name="helpWedLoveYourFeedback">Vi vil gerne høre din feedback</string>
     <string name="hide">Skjul</string>
     <string name="hideMenuBarDescription">Slå synlighed for systemmenulinjen til/fra</string>

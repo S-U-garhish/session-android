@@ -15,7 +15,7 @@ configurations.configureEach {
     exclude module: "commons-logging"
 }
 
-def canonicalVersionCode = 408
+def canonicalVersionCode = 409
 def canonicalVersionName = "1.23.2"
 
 def postFixSize = 10

@@ -549,7 +549,14 @@ class SettingsActivity : ScreenLockActionBarActivity() {
                         }
                         Divider()
                     }
-
+                    LargeItemButton(
+                        R.string.sessionHelp,
+                        R.drawable.ic_question_custom,
+                        Modifier.contentDescription(R.string.AccessibilityId_help)
+                    ) {
+                        push<HelpSettingsActivity>()
+                    }
+                    Divider()
 
                     LargeItemButton(R.string.sessionClearData,
                         R.drawable.ic_trash_2,

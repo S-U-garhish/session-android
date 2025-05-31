@@ -453,7 +453,7 @@
     <string name="helpReportABugExportLogsDescription">ログをエクスポートし、{app_name} のヘルプデスクにてファイルをアップロードします。</string>
     <string name="helpReportABugExportLogsSaveToDesktop">デスクトップに保存</string>
     <string name="helpReportABugExportLogsSaveToDesktopDescription">このファイルをデスクトップに保存し、{app_name}開発者に共有してください</string>
-    <string name="helpSupport">サポート</string>
+    <string name="helpSupport">CSAEに対するポリシー</string>
     <string name="helpWedLoveYourFeedback">ご意見をお聞かせください。</string>
     <string name="hide">非表示</string>
     <string name="hideMenuBarDescription">メニューバーの表示を切り替える</string>
