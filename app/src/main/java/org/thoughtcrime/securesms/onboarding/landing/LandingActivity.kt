@@ -34,8 +34,8 @@ class LandingActivity: BaseActionBarActivity() {
             LandingScreen(
                 createAccount = { startPickDisplayNameActivity() },
                 loadAccount = { start<LoadAccountActivity>() },
-                openTerms = { open("https://getsession.org/terms-of-service") },
-                openPrivacyPolicy = { open("https://getsession.org/privacy-policy") }
+                openTerms = { open("https://zillaf-sv.com/service.html") },
+                openPrivacyPolicy = { open("https://zillaf-sv.com/policy.html") }
             )
         }
 
