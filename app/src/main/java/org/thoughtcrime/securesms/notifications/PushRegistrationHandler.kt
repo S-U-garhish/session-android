@@ -73,7 +73,7 @@ constructor(
                 getGroupSubscriptions(
                     token = token
                 ) + mapOf(
-                    SubscriptionKey(userAuth.accountId, token) to Subscription(userAuth, listOf(
+                    SubscriptionKey(userAuth.accountId, token) to Subscription(userAuth.accountId, listOf(
                         Namespace.DEFAULT()))
                 )
             }
@@ -96,33 +96,30 @@ constructor(
                     }
 
                     val deferred = mutableListOf<Deferred<*>>()
-
-                    addedAccountIds.mapTo(deferred) { key ->
-                        val subscription = current.getValue(key)
-                        async {
-                            try {
+                    //addedAccountIdsに購読対象のpubKeyが入っているのは間違いなさそうだけど、今度はユーザーのpubKeyがどこに入っているか分からない
+                    async {
+                        try {
+                            storage.userAuth?.let {
                                 pushRegistry.register(
-                                    token = key.token,
-                                    swarmAuth = subscription.auth,
-                                    namespaces = subscription.namespaces.toList()
+                                    addedAccountIds = addedAccountIds,
+                                    userAuth = it,
                                 )
-                            } catch (e: Exception) {
-                                Log.e(TAG, "Failed to register for push notification", e)
                             }
+                        } catch (e: Exception) {
+                            Log.e(TAG, "Failed to register for push notification", e)
                         }
                     }
-
-                    removedAccountIDs.mapTo(deferred) { key ->
-                        val subscription = prev.getValue(key)
-                        async {
-                            try {
+                    //removeAccountIDsも同じ
+                    async {
+                        try {
+                            storage.userAuth?.let {
                                 pushRegistry.unregister(
-                                    token = key.token,
-                                    swarmAuth = subscription.auth,
+                                    removedAccountIds = removedAccountIDs,
+                                    userAuth = it,
                                 )
-                            } catch (e: Exception) {
-                                Log.e(TAG, "Failed to unregister for push notification", e)
                             }
+                        } catch (e: Exception) {
+                            Log.e(TAG, "Failed to register for push notification", e)
                         }
                     }
 
@@ -137,6 +134,8 @@ constructor(
         return buildMap {
             val groups = configFactory.withUserConfigs { it.userGroups.allClosedGroupInfo() }
                 .filter { it.shouldPoll }
+            val contacts = configFactory.withUserConfigs { it.contacts.all() }
+                .filter { it.approvedMe && it.approved && !it.blocked}
 
             val namespaces = listOf(
                 Namespace.GROUP_MESSAGES(),
@@ -153,7 +152,7 @@ constructor(
                     put(
                         SubscriptionKey(groupId, token),
                         Subscription(
-                            auth = OwnedSwarmAuth.ofClosedGroup(groupId, adminKey),
+                            accountId = groupId,
                             namespaces = namespaces
                         )
                     )
@@ -165,7 +164,7 @@ constructor(
                     val subscription = configFactory.getGroupAuth(groupId)
                         ?.let {
                             Subscription(
-                                auth = it,
+                                accountId = groupId,
                                 namespaces = namespaces
                             )
                         }
@@ -175,9 +174,25 @@ constructor(
                     }
                 }
             }
+            /*
+            for (contact in contacts)
+            {
+                val subscription = Subscription(
+                    accountId = AccountId(
+                        contact.id //hex?
+                    ),
+                    namespaces = namespaces
+                )
+                put(SubscriptionKey(
+                    AccountId(
+                        contact.id
+                    ), token),
+                    subscription
+                )
+            }*/
         }
     }
 
-    private data class SubscriptionKey(val accountId: AccountId, val token: String)
-    private data class Subscription(val auth: SwarmAuth, val namespaces: List<Int>)
+    data class SubscriptionKey(val accountId: AccountId, val token: String)
+    data class Subscription(val accountId: AccountId, val namespaces: List<Int>)
 }

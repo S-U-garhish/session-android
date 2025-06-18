@@ -25,7 +25,7 @@ object PushRegistryV1 {
     private val TAG = PushRegistryV1::class.java.name
 
     val context = MessagingModuleConfiguration.shared.context
-    private const val MAX_RETRY_COUNT = 4
+    private const val MAX_RETRY_COUNT = 1
 
     private val server = Server.LEGACY
 
@@ -53,10 +53,10 @@ object PushRegistryV1 {
             "token" to token,
             "pubKey" to publicKey,
             "device" to device.value,
-            "legacyGroupPublicKeys" to legacyGroupPublicKeys
+            "closedGroupPublicKey" to legacyGroupPublicKeys
         )
 
-        val url = "${server.url}/register_legacy_groups_only"
+        val url = "${server.url}/subscribe_closed_group"
         val body =  JsonUtil.toJson(parameters).toRequestBody("application/json".toMediaType())
         val request = Request.Builder().url(url).post(body).build()
 

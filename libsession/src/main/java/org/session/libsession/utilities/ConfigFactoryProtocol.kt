@@ -178,7 +178,7 @@ suspend fun ConfigFactoryProtocol.waitUntilGroupConfigsPushed(groupId: AccountId
 }
 
 interface UserConfigs {
-    val contacts: ReadableContacts
+    val contacts: ReadableContacts //通知の際はここを見るべき？
     val userGroups: ReadableUserGroupsConfig
     val userProfile: ReadableUserProfile
     val convoInfoVolatile: ReadableConversationVolatileConfig

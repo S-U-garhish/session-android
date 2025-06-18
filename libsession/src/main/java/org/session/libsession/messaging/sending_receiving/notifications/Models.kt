@@ -14,11 +14,11 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class SubscriptionRequest(
     /** the 33-byte account being subscribed to; typically an account ID */
-    val pubkey: String,
+    val pubKey: String?,
     /** when the pubkey starts with 05 (i.e. an account ID) this is the ed25519 32-byte pubkey associated with the account ID */
-    val session_ed25519: String? = null,
+    val token: String? = null,
     /** array of integer namespaces to subscribe to, **must be sorted in ascending order** */
-    val namespaces: List<Int>,
+    val closedGroupPublicKey: List<String>,
     /** if provided and true then notifications will include the body of the message (as long as it isn't too large) */
     val data: Boolean,
     /** the signature unix timestamp in seconds, not ms */
@@ -26,18 +26,20 @@ data class SubscriptionRequest(
     /** the string identifying the notification service, "firebase" for android (currently) */
     val service: String,
     /** dict of service-specific data, currently just "token" field with device-specific token but different services might have other requirements */
-    val service_info: Map<String, String>,
+    //val service_info: Map<String, String>,
     /** 32-byte encryption key; notification payloads sent to the device will be encrypted with XChaCha20-Poly1305 via libsodium using this key.
      * persist it on device */
-    val enc_key: String
+    //val enc_key: String
 )
 
 @Serializable
 data class UnsubscriptionRequest(
-    /** the 33-byte account being subscribed to; typically a account ID */
-    val pubkey: String,
+    /** the 33-byte account being subscribed to; typically an account ID */
+    val pubKey: String?,
     /** when the pubkey starts with 05 (i.e. an account ID) this is the ed25519 32-byte pubkey associated with the account ID */
-    val session_ed25519: String? = null,
+    //val token: String? = null,
+    /** array of integer namespaces to subscribe to, **must be sorted in ascending order** */
+    val closedGroupPublicKey: List<String>,
     /** 32-byte swarm authentication subkey; omitted (or null) when not using subkey auth (new closed groups) */
     val subkey_tag: String? = null,
     /** the signature unix timestamp in seconds, not ms */
@@ -45,7 +47,7 @@ data class UnsubscriptionRequest(
     /** the string identifying the notification service, "firebase" for android (currently) */
     val service: String,
     /** dict of service-specific data, currently just "token" field with device-specific token but different services might have other requirements */
-    val service_info: Map<String, String>,
+    //val service_info: Map<String, String>,
 )
 
 /** invalid values, missing reuqired arguments etc, details in message */
@@ -59,26 +61,42 @@ private const val GENERIC_ERROR = 4
 
 @Serializable
 data class SubscriptionResponse(
-    override val error: Int? = null,
+    override val code : Int? = null,
     override val message: String? = null,
+    override val error: Int? = null,
+
     override val success: Boolean? = null,
     val added: Boolean? = null,
     val updated: Boolean? = null,
+    override val subResponses: List<SubscriptionResponseSub>? = null
 ): Response
 
 @Serializable
+data class SubscriptionResponseSub(
+    val message: String? = null,
+    val error: Int? = null,
+    val success: Boolean? = null,
+    val added: Boolean? = null,
+    val updated: Boolean? = null,
+)
+
+@Serializable
 data class UnsubscribeResponse(
+    override val code : Int? = null,
     override val error: Int? = null,
     override val message: String? = null,
     override val success: Boolean? = null,
     val removed: Boolean? = null,
+    override val subResponses: List<SubscriptionResponseSub>? = null
 ): Response
 
 interface Response {
+    val subResponses: List<SubscriptionResponseSub>?
+    val code : Int?
     val error: Int?
     val message: String?
     val success: Boolean?
-    fun isSuccess() = success == true && error == null
+    fun isSuccess() = code == 1
     fun isFailure() = !isSuccess()
 }
 

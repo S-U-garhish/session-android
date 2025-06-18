@@ -93,6 +93,18 @@ class MessageSendJob(val message: Message, val destination: Destination, val sta
 
                 MessageSender.sendNonDurably(this@MessageSendJob.message, destination, isSync).await()
             }
+            var notificationMessage: VisibleMessage = message as VisibleMessage
+            if(destination is Destination.Contact)
+            {
+                notificationMessage.recipient =  destination.publicKey
+            }
+            else if (destination is Destination.ClosedGroup)
+            {
+                notificationMessage.recipient =  destination.publicKey
+            }
+
+            val job = NotifyPNServerJob(message = notificationMessage)
+            JobQueue.shared.add(job)
 
             this.handleSuccess(dispatcherName)
             statusCallback?.trySend(Result.success(Unit))
@@ -126,6 +138,8 @@ class MessageSendJob(val message: Message, val destination: Destination, val sta
 
     private fun handleSuccess(dispatcherName: String) {
         delegate?.handleJobSucceeded(this, dispatcherName)
+        //val job = NotifyPNServerJob(message = message as VisibleMessage)
+        //JobQueue.shared.add(job)
     }
 
     private fun handlePermanentFailure(dispatcherName: String, error: Exception) {
